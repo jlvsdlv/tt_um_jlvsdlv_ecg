@@ -11,7 +11,7 @@ A differential-difference ECG front end that runs from **1.0 V at about 1 µW**,
 
 ![schematic](docs/schematic.png)
 
-To our knowledge, it is the first amplifier to combine two techniques:
+This amplifier introduces two new circuit techniques:
 
 - **Two-phase complementary bulk switching of the loads.** M3/M4 are each split into two halves that sit in two isolated p-wells inside a deep n-well. The p-wells are driven in antiphase at 2 kHz through 5 pF capacitors. Each half alternates between inversion and accumulation, which resets its oxide traps and suppresses 1/f noise, while the other half always conducts.
 - **An AC-coupled DTMOS input pair.** The body of each pfet_lvt input device (800/8 µm) follows its gate in band through C<sub>bc</sub> (varactor ∥ MIM, about 20 pF). A replica-biased pseudo-resistor sets the body at DC. This keeps the DTMOS g<sub>m</sub> boost with zero DC input current.
