@@ -1,0 +1,24 @@
+      0-vi2     861.9 fF
+      0-vi1     816.2 fF
+    nw2-vi2     793.9 fF
+    nw1-vi1     792.7 fF
+     g3-g4      770.3 fF
+      0-tail    359.2 fF
+      0-g3      348.0 fF
+      0-g4      329.0 fF
+      0-nb      274.1 fF
+      0-vo1     111.0 fF
+    vi1-vo2     105.2 fF
+   tail-vgr     100.2 fF
+      0-vgr      99.0 fF
+    nw1-vo2      90.4 fF
+tt 27: gain 33.7 dB fLP 2494 | Ct 4030 fF Zmin 2.27 G Z@1/50/150 554/19.9/2.17 G | IRN 2.128/0.900 uV
+ss 27: gain 33.4 dB fLP 2494 | Ct 2650 fF Zmin 2.52 G Z@1/50/150 524/22.2/2.41 G | IRN 2.193/0.912 uV
+ff 27: gain 33.9 dB fLP 2494 | Ct 3350 fF Zmin 2.38 G Z@1/50/150 555/21/2.27 G | IRN 2.068/0.891 uV
+sf 27: gain 33.6 dB fLP 2354 | Ct 3270 fF Zmin 2.37 G Z@1/50/150 627/20.8/2.27 G | IRN 2.053/0.903 uV
+fs 27: gain 32.9 dB fLP 2967 | Ct 3160 fF Zmin 2.78 G Z@1/50/150 378/25.3/2.66 G | IRN 2.209/0.887 uV
+tt  0: gain 33.5 dB fLP 2494 | Ct 4380 fF Zmin 2.38 G Z@1/50/150 815/20.9/2.27 G | IRN 2.100/0.900 uV
+tt 37: gain 33.8 dB fLP 2354 | Ct 3840 fF Zmin 2.25 G Z@1/50/150 257/20.5/2.15 G | IRN 2.147/0.909 uV
+tt 60: gain 33.8 dB fLP 2354 | Ct 3350 fF Zmin 2.40 G Z@1/50/150 30.1/68.7/2.28 G | IRN 2.290/0.996 uV
+ss  0: gain 33.2 dB fLP 2494 | Ct 3110 fF Zmin 2.61 G Z@1/50/150 834/23/2.5 G | IRN 2.158/0.910 uV
+ff 60: gain 34.0 dB fLP 2494 | Ct 2470 fF Zmin 2.65 G Z@1/50/150 30.8/92/2.52 G | IRN 2.219/0.968 uV

@@ -1,0 +1,70 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1795453333
+<< error_p >>
+rect -110 291 110 318
+rect -110 -318 110 -291
+<< nwell >>
+rect -213 -291 213 291
+<< varactor >>
+rect -80 -200 80 200
+<< nsubdiff >>
+rect -177 176 -80 200
+rect -177 -176 -165 176
+rect -131 -176 -80 176
+rect -177 -200 -80 -176
+rect 80 176 177 200
+rect 80 -176 131 176
+rect 165 -176 177 176
+rect 80 -200 177 -176
+<< nsubdiffcont >>
+rect -165 -176 -131 176
+rect 131 -176 165 176
+<< poly >>
+rect -80 272 80 288
+rect -80 238 -64 272
+rect 64 238 80 272
+rect -80 200 80 238
+rect -80 -238 80 -200
+rect -80 -272 -64 -238
+rect 64 -272 80 -238
+rect -80 -288 80 -272
+<< polycont >>
+rect -64 238 64 272
+rect -64 -272 64 -238
+<< locali >>
+rect -80 238 -64 272
+rect 64 238 80 272
+rect -165 176 -131 192
+rect -165 -192 -131 -176
+rect 131 176 165 192
+rect 131 -192 165 -176
+rect -80 -272 -64 -238
+rect 64 -272 80 -238
+<< viali >>
+rect -64 238 64 272
+rect -165 -176 -131 176
+rect 131 -176 165 176
+rect -64 -272 64 -238
+<< metal1 >>
+rect -76 272 76 278
+rect -76 238 -64 272
+rect 64 238 76 272
+rect -76 232 76 238
+rect -171 176 -125 188
+rect 125 176 171 188
+rect -171 -176 -165 176
+rect -131 -176 131 176
+rect 165 -176 171 176
+rect -171 -188 -125 -176
+rect 125 -188 171 -176
+rect -76 -238 76 -232
+rect -76 -272 -64 -238
+rect 64 -272 76 -238
+rect -76 -278 76 -272
+<< properties >>
+string gencell sky130_fd_pr__cap_var_lvt
+string library sky130
+string parameters w 2 l 0.8 m 1 nf 1 diffcov 100 polycov 100 guard 0 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 1 poverlap 0 doverlap 1 lmin 0.18 wmin 1.0 class mosfet compatible {sky130_fd_pr__cap_var_lvt  sky130_fd_pr__cap_var_hvt sky130_fd_pr__cap_var} full_metal 1 viasrc 100 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0 gshield 1
+<< end >>

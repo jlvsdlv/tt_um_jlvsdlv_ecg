@@ -1,0 +1,102 @@
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_C30 in circuit tt_um_jlvsdlv_ecg (0)(29 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_P1L05 in circuit tt_um_jlvsdlv_ecg (0)(6 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_C122 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_N2L05 in circuit tt_um_jlvsdlv_ecg (0)(4 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_MLAD in circuit tt_um_jlvsdlv_ecg (0)(7 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_C173 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_C245 in circuit tt_um_jlvsdlv_ecg (0)(6 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_P4L05 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_MRB in circuit tt_um_jlvsdlv_ecg (0)(8 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_XP1 in circuit tt_um_jlvsdlv_ecg (0)(8 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_P042L4 in circuit tt_um_jlvsdlv_ecg (0)(3 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_MB2Q in circuit tt_um_jlvsdlv_ecg (0)(4 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_NL042L1 in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_NL2L8 in circuit tt_um_jlvsdlv_ecg (0)(3 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_VAR9G in circuit tt_um_jlvsdlv_ecg (0)(6 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_XP1B in circuit tt_um_jlvsdlv_ecg (0)(8 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_NL2L8x4 in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_N042L1 in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_M34S in circuit tt_um_jlvsdlv_ecg (0)(8 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_N1L05 in circuit tt_um_jlvsdlv_ecg (0)(28 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_N05L05 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_PL4L2 in circuit tt_um_jlvsdlv_ecg (0)(3 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_VB0G in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_MSWP in circuit tt_um_jlvsdlv_ecg (0)(4 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_RXA in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_VB1G in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_RXB in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_VB2G in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_RXC in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_VB3G in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_PL4L8 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_VB4G in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_VB5G in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_C7 in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_MIRB in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_NL2L8x8 in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_PL2L2 in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_MB1 in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_NL2L8x5 in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_P2L05 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_C205 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_NL2L4 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_MREP in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_C236 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+
+Cell tt_um_jlvsdlv_ecg disconnected node: ena
+Cell tt_um_jlvsdlv_ecg disconnected node: rst_n
+Cell tt_um_jlvsdlv_ecg disconnected node: uio_in[6]
+Cell tt_um_jlvsdlv_ecg disconnected node: uio_in[7]
+Class tt_um_jlvsdlv_ecg:  Merged 435 devices.
+
+Cell tt_um_jlvsdlv_ecg disconnected node: ena
+Cell tt_um_jlvsdlv_ecg disconnected node: rst_n
+Cell tt_um_jlvsdlv_ecg disconnected node: uio_in[6]
+Cell tt_um_jlvsdlv_ecg disconnected node: uio_in[7]
+
+Subcircuit summary:
+Circuit 1: tt_um_jlvsdlv_ecg               |Circuit 2: tt_um_jlvsdlv_ecg               
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_1 (20)            |sky130_fd_pr__cap_mim_m3_1 (20)            
+sky130_fd_pr__pfet_01v8 (22)               |sky130_fd_pr__pfet_01v8 (22)               
+sky130_fd_pr__nfet_01v8 (35)               |sky130_fd_pr__nfet_01v8 (35)               
+sky130_fd_pr__pfet_01v8_lvt (21)           |sky130_fd_pr__pfet_01v8_lvt (21)           
+sky130_fd_pr__nfet_01v8_lvt (14)           |sky130_fd_pr__nfet_01v8_lvt (14)           
+sky130_fd_pr__cap_var_lvt (14)             |sky130_fd_pr__cap_var_lvt (14)             
+sky130_fd_pr__res_xhigh_po_0p35 (3)        |sky130_fd_pr__res_xhigh_po_0p35 (3)        
+Number of devices: 129                     |Number of devices: 129                     
+Number of nets: 84                         |Number of nets: 84                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Circuits match correctly.
+
+Subcircuit pins:
+Circuit 1: tt_um_jlvsdlv_ecg               |Circuit 2: tt_um_jlvsdlv_ecg               
+-------------------------------------------|-------------------------------------------
+uio_in[4]                                  |uio_in[4]                                  
+uio_in[5]                                  |uio_in[5]                                  
+ua[5]                                      |ua[5]                                      
+ua[3]                                      |ua[3]                                      
+ua[2]                                      |ua[2]                                      
+VGND                                       |VGND                                       
+ua[4]                                      |ua[4]                                      
+clk                                        |clk                                        
+uio_in[2]                                  |uio_in[2]                                  
+ua[0]                                      |ua[0]                                      
+ua[1]                                      |ua[1]                                      
+VDPWR                                      |VDPWR                                      
+ui_in[6]                                   |ui_in[6]                                   
+ui_in[7]                                   |ui_in[7]                                   
+uio_in[0]                                  |uio_in[0]                                  
+uio_in[1]                                  |uio_in[1]                                  
+ui_in[0]                                   |ui_in[0]                                   
+ui_in[1]                                   |ui_in[1]                                   
+ui_in[2]                                   |ui_in[2]                                   
+ui_in[3]                                   |ui_in[3]                                   
+ui_in[4]                                   |ui_in[4]                                   
+ui_in[5]                                   |ui_in[5]                                   
+uio_in[3]                                  |uio_in[3]                                  
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tt_um_jlvsdlv_ecg and tt_um_jlvsdlv_ecg are equivalent.
+Circuits match uniquely.

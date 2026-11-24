@@ -1,0 +1,1881 @@
+* NGSPICE file created from tt_um_ecg_v5.ext - technology: sky130A
+
+X0 XMR4/D XMR3/D sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X1 VDPWR uio_in[3] XSWF4/G VDPWR sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X2 ua[0] XSCT1_6/D sky130_fd_pr__cap_mim_m3_1 l=12.2 w=12.2
+X3 VGND XI2bP/G XI2bP/D VGND sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X4 XLD2/S XLD3/S XLD3/S XLD2/S sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=2
+X5 ua[0] XSCT1_7/D sky130_fd_pr__cap_mim_m3_1 l=17.3 w=17.3
+X6 XLD3/S XLD4/S XLD4/S XLD3/S sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=9.16 as=1.16 ps=9.16 w=2 l=2
+X7 VGND XI2aP/G XI2aP/D VGND sky130_fd_pr__nfet_01v8 ad=21.8254 pd=180.67999 as=0.58 ps=4.58 w=2 l=0.5
+X8 ua[0] XSCT1_8/D sky130_fd_pr__cap_mim_m3_1 l=24.5 w=24.5
+X9 VDPWR XI2bP/G XI2bP/D VDPWR sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.5
+X10 XLD4/S XLD5/S XLD5/S XLD4/S sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=1.16 ps=9.16 w=2 l=2
+X11 XA1/G XMREP/G XMRB21/S XA1/G sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=20
+X12 VDPWR XI2aP/G XI2aP/D VDPWR sky130_fd_pr__pfet_01v8 ad=5.22 pd=41.8 as=1.16 ps=8.58 w=4 l=0.5
+X13 XLD5/S XLD6/S XLD6/S XLD5/S sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=1.16 ps=9.16 w=2 l=2
+X14 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=3.625 pd=25.29 as=3.625 ps=25.29 w=25 l=8
+X15 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=3.625 pd=25.29 as=7.25 ps=50.58 w=25 l=8
+X16 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=3.625 pd=25.29 as=3.625 ps=25.29 w=25 l=8
+X17 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=7.25 pd=50.58 as=3.625 ps=25.29 w=25 l=8
+X18 ua[3] ua[3] XMR3/D ua[3] sky130_fd_pr__pfet_01v8 ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=4
+X19 XA1/G XMREP/G XMRB11/S XA1/G sky130_fd_pr__pfet_01v8 ad=363.32361 pd=2.6008k as=1.16 ps=9.16 w=2 l=20
+X20 XMRB21/S XMREP/G XMRB22/S XMRB21/S sky130_fd_pr__pfet_01v8 ad=1.16 pd=9.16 as=1.16 ps=9.16 w=2 l=20
+X21 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X22 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X23 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X24 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X25 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X26 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X27 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X28 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X29 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X30 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X31 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X32 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X33 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X34 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X35 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X36 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X37 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=2
+X38 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X39 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X40 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X41 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X42 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X43 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X44 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X45 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X46 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X47 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X48 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X49 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X50 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X51 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X52 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X53 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X54 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X55 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X56 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=2
+X57 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X58 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X59 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X60 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X61 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X62 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X63 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X64 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X65 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X66 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X67 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X68 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X69 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X70 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X71 XSWB1/D ua[0] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X72 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=174.24361 pd=1.21676k as=0 ps=0 w=25 l=8
+X73 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X74 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X75 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X76 XLD6/S VGND VGND XLD6/S sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=207.6638 ps=2.44086k w=2 l=2
+X77 ua[2] ua[2] XMR4/D ua[2] sky130_fd_pr__pfet_01v8 ad=174.24361 pd=1.21676k as=0.2436 ps=2.84 w=0.42 l=4
+X78 XMRB22/S XMREP/G XMRB23/S XMRB22/S sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=1.16 ps=9.16 w=2 l=20
+X79 XMRB11/S XMREP/G XMRB12/S XMRB11/S sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=1.16 ps=9.16 w=2 l=20
+X80 VGND XRP1/D XRML/D VGND sky130_fd_pr__nfet_01v8_lvt ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=1
+X81 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=67.9818 pd=534.38 as=0 ps=0 w=2 l=2
+X82 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X83 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X84 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X85 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X86 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X87 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X88 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X89 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X90 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X91 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X92 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X93 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X94 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X95 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X96 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X97 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X98 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X99 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X100 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X101 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X102 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X103 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X104 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X105 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X106 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X107 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X108 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X109 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X110 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X111 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X112 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X113 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X114 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X115 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X116 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X117 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X118 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X119 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X120 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X121 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X122 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X123 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X124 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X125 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X126 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X127 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X128 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X129 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X130 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X131 XSWB1/D ua[0] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X132 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X133 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X134 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X135 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X136 VGND XS2/G XS1/D VGND sky130_fd_pr__nfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=8
+X137 XMRB12/S XMREP/G XMRB13/S XMRB12/S sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=1.16 ps=9.16 w=2 l=20
+X138 XMRB23/S XMREP/G XSWB2/D XMRB23/S sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.7018 ps=6 w=2 l=20
+X139 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X140 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X141 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X142 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X143 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X144 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X145 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X146 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X147 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X148 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X149 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X150 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X151 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X152 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X153 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X154 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X155 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X156 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X157 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X158 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X159 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X160 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X161 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X162 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X163 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X164 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X165 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X166 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X167 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X168 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X169 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X170 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X171 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X172 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X173 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X174 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X175 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X176 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X177 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X178 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X179 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X180 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X181 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X182 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X183 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X184 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X185 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X186 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X187 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X188 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X189 XSWB1/D ua[0] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X190 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X191 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X192 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X193 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X194 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X195 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X196 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X197 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X198 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X199 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X200 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X201 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X202 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X203 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=3.625 pd=25.29 as=7.25 ps=50.58 w=25 l=8
+X204 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=3.625 pd=25.29 as=3.625 ps=25.29 w=25 l=8
+X205 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=7.25 pd=50.58 as=3.625 ps=25.29 w=25 l=8
+X206 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=3.625 pd=25.29 as=3.625 ps=25.29 w=25 l=8
+X207 ua[4] XS2/G VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=8
+X208 VGND XS2/G ua[4] VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=8
+X209 ua[4] XS2/G VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
+X210 VGND XS2/G ua[4] VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
+X211 XMRB13/S XMREP/G XSWB1/D XMRB13/S sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.7018 ps=6 w=2 l=20
+X212 VGND XRML/D XRP2/G VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=1
+X213 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X214 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X215 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X216 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X217 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X218 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X219 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X220 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X221 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X222 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X223 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X224 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X225 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X226 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X227 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X228 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X229 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X230 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X231 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X232 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X233 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X234 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X235 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X236 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X237 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X238 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X239 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X240 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X241 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X242 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X243 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X244 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X245 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X246 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X247 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X248 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X249 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X250 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X251 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X252 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X253 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X254 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X255 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X256 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X257 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X258 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X259 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X260 XA1/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X261 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X262 ua[5] XBP/G XA1/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2 l=2
+X263 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X264 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X265 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X266 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X267 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X268 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X269 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X270 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X271 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X272 XSWB1/D ua[0] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X273 VGND XMR4/D ua[2] XMCLa/B sky130_fd_pr__nfet_01v8_lvt ad=0.725 pd=5.58 as=0.725 ps=5.58 w=2.5 l=64
+X274 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X275 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X276 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X277 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X278 ua[5] ua[5] XRML/D ua[5] sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.1218 ps=1.42 w=0.42 l=4
+X279 XSWB1/D ua[0] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X280 VGND XMR4/D ua[2] XMCLa/B sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=6.5788 ps=65.6 w=2.5 l=64
+X281 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X282 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X283 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X284 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X285 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X286 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X287 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X288 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X289 XSWB2/D ua[1] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X290 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X291 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X292 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X293 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X294 VGND ui_in[0] XSCT1_0/D VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X295 VGND VGND VGND XMCLa/B sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.5
+X296 VGND clk XIKCP/D VGND sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X297 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X298 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X299 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X300 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X301 ua[5] XPB/D ua[4] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X302 VGND ui_in[1] XSCT1_1/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=4.17 ps=22.46 w=1 l=0.5
+X303 VGND VGND VGND XMCLb/B sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.5
+X304 ua[1] XSCT2_0/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X305 ua[3] XSWF4/G XMR3/D ua[3] sky130_fd_pr__pfet_01v8_lvt ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=0.5
+X306 VGND ui_in[2] XSCT1_2/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=8.05 ps=42.34 w=1 l=0.5
+X307 XRS2/D uio_in[4] XRS1/D VGND sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0.29 ps=2.58 w=1 l=0.5
+X308 XRR0/R1_2 XRR0/R2_3 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X309 XRR0/R1_4 XRR0/R2_3 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X310 XRR0/R1_14 XRR0/R2_13 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X311 XRR0/R1_9 XRR0/R2_9 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X312 XRN2/S7 XRR0/R2_1 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X313 XRS1/D XRR0/R2_15 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X314 XRR0/R1_12 XRR0/R2_13 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X315 XRR0/R1_8 XRR0/R2_7 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X316 XRR0/R1_4 XRR0/R2_5 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X317 XRR0/R1_14 XRR0/R2_15 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X318 XRR0/R1_9 XRR0/R2_11 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X319 XRR0/R1_12 XRR0/R2_11 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X320 XRR0/R1_2 XRR0/R2_1 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X321 XRR0/R1_6 XRR0/R2_5 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X322 XRR0/R1_6 XRR0/R2_7 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X323 XRR0/R1_8 XRR0/R2_9 VGND sky130_fd_pr__res_xhigh_po_0p35 l=70
+X324 VGND XMR3/D ua[3] XMCLb/B sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=6.5788 ps=65.6 w=2.5 l=64
+X325 VDPWR clk XIKCP/D VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X326 ua[1] XSCT2_1/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X327 ua[1] XSCT2_1/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X328 ua[2] XSWF4/G XMR4/D ua[2] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X329 VGND ui_in[3] XSCT1_3/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=15.81 ps=82.1 w=1 l=0.5
+X330 VGND uio_in[5] XRS2/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.5
+X331 XRS1/D XRR1/R2_1 VGND sky130_fd_pr__res_xhigh_po_0p35 l=65.5
+X332 XRS2/D XRR1/R2_1 VGND sky130_fd_pr__res_xhigh_po_0p35 l=65.5
+X333 VGND XMR3/D ua[3] XMCLb/B sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2.5 l=64
+X334 ua[1] XSCT2_2/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X335 ua[1] XSCT2_2/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X336 ua[1] XSCT2_2/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X337 ua[1] XSCT2_2/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X338 VDPWR clk XI1aP/G VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.58 ps=5.16 w=1 l=0.5
+X339 XA1/G XSWF4/G XSWB1/D XA1/G sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X340 XI2aP/D XMCLa/B sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X341 VGND ui_in[4] XSCT1_4/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=8.05 ps=36.52 w=1 l=0.5
+X342 VGND XRR2/R2_3 VGND sky130_fd_pr__res_xhigh_po_0p35 l=65.5
+X343 XRR2/R1_2 XRR2/R2_1 VGND sky130_fd_pr__res_xhigh_po_0p35 l=65.5
+X344 XRS2/D XRR2/R2_1 VGND sky130_fd_pr__res_xhigh_po_0p35 l=65.5
+X345 XRR2/R1_2 XRR2/R2_3 VGND sky130_fd_pr__res_xhigh_po_0p35 l=65.5
+X346 VDPWR uio_in[2] XI1aP/G VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.5
+X347 ua[1] XSCT2_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X348 ua[1] XSCT2_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X349 ua[1] XSCT2_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X350 ua[1] XSCT2_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X351 ua[1] XSCT2_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X352 ua[1] XSCT2_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X353 ua[1] XSCT2_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X354 ua[1] XSCT2_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X355 XA1/G XSWF4/G XSWB2/D XA1/G sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X356 VGND ui_in[5] XSCT1_5/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=15.81 ps=70.46 w=1 l=0.5
+X357 XI2aP/D XMCLa/B sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X358 ua[5] XRP2/G XRP1/D ua[5] sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=8
+X359 ua[1] XSCT2_4/D VGND sky130_fd_pr__cap_var_lvt w=8 l=3.2
+X360 XI2aP/D XMCLa/B sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X361 XNDAaN2/D clk XI1aP/G VGND sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0.29 ps=2.58 w=1 l=0.5
+X362 ua[5] XRP2/G XRP2/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=1.16 ps=8.58 w=4 l=8
+X363 VGND ui_in[6] XSCT1_6/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X364 VGND uio_in[2] XNDAaN2/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.5
+X365 ua[1] XSCT2_5/D VGND sky130_fd_pr__cap_var_lvt w=8 l=3.2
+X366 ua[1] XSCT2_5/D VGND sky130_fd_pr__cap_var_lvt w=8 l=3.2
+X367 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X368 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X369 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X370 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X371 ua[5] XRML/D sky130_fd_pr__cap_mim_m3_1 l=7 w=7
+X372 VGND XS2/G XS2/G VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0.58 ps=4.58 w=2 l=8
+X373 VGND ui_in[7] XSCT1_7/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X374 VGND XRP1/D XRP1/D VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0.58 ps=4.58 w=2 l=8
+X375 VGND XS2/G XMREP/G VGND sky130_fd_pr__nfet_01v8_lvt ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=16
+X376 ua[1] XSCT2_6/D sky130_fd_pr__cap_mim_m3_1 l=12.2 w=12.2
+X377 ua[0] XSCT1_9/D sky130_fd_pr__cap_mim_m3_1 l=24.5 w=24.5
+X378 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X379 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X380 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X381 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X382 XRP2/G XRP1/D XRN2/S7 VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
+X383 XRN2/S7 XRP1/D XRP2/G VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
+X384 XRN2/S7 XRP1/D XRP2/G VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=8
+X385 XRN2/S7 XRP1/D XRP2/G VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
+X386 XRP2/G XRP1/D XRN2/S7 VGND sky130_fd_pr__nfet_01v8_lvt ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=8
+X387 XRP2/G XRP1/D XRN2/S7 VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
+X388 XRN2/S7 XRP1/D XRP2/G VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
+X389 XRP2/G XRP1/D XRN2/S7 VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
+X390 VGND uio_in[0] XSCT1_8/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X391 ua[0] XSCT1_9/D sky130_fd_pr__cap_mim_m3_1 l=24.5 w=24.5
+X392 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X393 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X394 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X395 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X396 ua[1] XSCT2_7/D sky130_fd_pr__cap_mim_m3_1 l=17.3 w=17.3
+X397 ua[5] XBP/G XS2/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=2
+X398 VGND uio_in[1] XSCT1_9/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X399 ua[5] XBP/G XBP/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X400 XBP/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X401 XBP/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=2
+X402 ua[5] XBP/G XBP/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X403 XBP/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X404 ua[5] XBP/G XBP/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X405 ua[5] XBP/G XBP/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X406 XBP/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X407 XBP/G XBP/G ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=2
+X408 ua[5] XBP/G XBP/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=2
+X409 XBP/G XRP1/D VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
+X410 VGND XRP1/D XBP/G VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
+X411 VGND XRP1/D XBP/G VGND sky130_fd_pr__nfet_01v8_lvt ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=8
+X412 VGND XRP1/D XBP/G VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=8
+X413 XBP/G XRP1/D VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
+X414 ua[1] XSCT2_8/D sky130_fd_pr__cap_mim_m3_1 l=24.5 w=24.5
+X415 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X416 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X417 XA1/G ua[1] ua[2] XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X418 ua[2] ua[1] XA1/G XSWB2/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X419 VGND XI1bP/G XI2bP/G VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X420 XSWB2/D ua[1] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X421 VGND XI1aP/G XI2aP/G VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X422 XSWB2/D ua[1] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X423 VDPWR XI1bP/G XI2bP/G VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X424 ua[2] ua[0] sky130_fd_pr__cap_mim_m3_1 l=20.5 w=20.5
+X425 XSWB2/D ua[1] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X426 VDPWR XI1aP/G XI2aP/G VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.58 ps=4.58 w=2 l=0.5
+X427 XSWB2/D ua[1] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X428 ua[3] ua[1] sky130_fd_pr__cap_mim_m3_1 l=20.5 w=20.5
+X429 VGND XMR4/D ua[2] XMCLb/B sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2.5 l=64
+X430 XS1/D XA1/G XPB/G VGND sky130_fd_pr__nfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=4
+X431 VGND XMR4/D ua[2] XMCLb/B sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2.5 l=64
+X432 XSWB2/D ua[1] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X433 ua[5] XPB/G XPB/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=1.16 ps=8.58 w=4 l=2
+X434 XS1/D XA2/G XPB/D VGND sky130_fd_pr__nfet_01v8_lvt ad=1.74 pd=13.74 as=0.58 ps=4.58 w=2 l=4
+X435 VGND ui_in[0] XSCT2_0/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=2.23 ps=12.52 w=1 l=0.5
+X436 ua[5] XPB/G XPB/D ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=1.16 ps=8.58 w=4 l=2
+X437 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X438 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X439 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X440 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X441 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X442 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X443 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X444 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X445 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X446 VGND ui_in[1] XSCT2_1/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=4.17 ps=22.46 w=1 l=0.5
+X447 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X448 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X449 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X450 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X451 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X452 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X453 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X454 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X455 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X456 VGND ui_in[2] XSCT2_2/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=8.05 ps=42.34 w=1 l=0.5
+X457 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X458 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X459 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X460 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X461 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X462 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X463 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X464 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X465 XSWB1/D ua[0] VGND sky130_fd_pr__cap_var_lvt w=10 l=8
+X466 VGND ui_in[3] XSCT2_3/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=15.81 ps=82.1 w=1 l=0.5
+X467 ua[1] XSCT2_9/D sky130_fd_pr__cap_mim_m3_1 l=24.5 w=24.5
+X468 XMR3/D XMR4/D sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X469 VDPWR XIKCP/D XI1bP/G VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0.58 ps=5.16 w=1 l=0.5
+X470 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X471 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X472 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X473 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X474 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X475 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X476 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X477 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X478 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X479 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X480 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X481 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X482 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X483 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X484 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X485 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X486 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X487 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X488 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X489 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X490 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X491 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X492 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X493 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X494 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X495 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X496 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X497 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X498 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=2.9 pd=20.58 as=1.45 ps=10.29 w=10 l=1
+X499 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X500 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X501 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X502 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X503 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X504 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X505 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X506 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X507 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=2.9 ps=20.58 w=10 l=1
+X508 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X509 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X510 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X511 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X512 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X513 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X514 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X515 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X516 XA1/G XMREP/G XMREP/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X517 XMREP/G XMREP/G XA1/G XA1/G sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.29 as=1.45 ps=10.29 w=10 l=1
+X518 VGND ui_in[4] XSCT2_4/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=8.05 ps=36.52 w=1 l=0.5
+X519 XI2bP/D XMCLb/B sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X520 XPB/D ua[4] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X521 ua[1] XSCT2_9/D sky130_fd_pr__cap_mim_m3_1 l=24.5 w=24.5
+X522 XMR4/D XMR3/D sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X523 VDPWR uio_in[2] XI1bP/G VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.5
+X524 ua[0] XSCT1_0/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X525 XI2bP/D XMCLb/B sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X526 VGND ui_in[5] XSCT2_5/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=15.81 ps=70.46 w=1 l=0.5
+X527 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X528 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X529 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X530 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X531 XPB/D ua[4] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X532 VGND XMR3/D ua[3] XMCLa/B sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2.5 l=64
+X533 XMR3/D XMR4/D sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X534 XNDAbN2/D XIKCP/D XI1bP/G VGND sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0.29 ps=2.58 w=1 l=0.5
+X535 ua[0] XSCT1_1/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X536 ua[0] XSCT1_1/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X537 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X538 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X539 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X540 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X541 VGND ui_in[6] XSCT2_6/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X542 XI2bP/D XMCLb/B sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X543 XPB/D ua[4] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X544 ua[3] XMR3/D sky130_fd_pr__cap_mim_m3_1 l=23.6 w=23.6
+X545 VGND XMR3/D ua[3] XMCLa/B sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=2.5 l=64
+X546 XMR4/D XMR3/D sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X547 VGND uio_in[2] XNDAbN2/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.5
+X548 ua[0] XSCT1_2/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X549 ua[0] XSCT1_2/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X550 ua[0] XSCT1_2/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X551 ua[0] XSCT1_2/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X552 VGND ui_in[7] XSCT2_7/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X553 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X554 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X555 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X556 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X557 XPB/D ua[4] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X558 XMR3/D XMR4/D sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X559 ua[2] XMR4/D sky130_fd_pr__cap_mim_m3_1 l=23.6 w=23.6
+X560 ua[0] XSCT1_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X561 ua[0] XSCT1_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X562 ua[0] XSCT1_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X563 ua[0] XSCT1_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X564 ua[0] XSCT1_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X565 ua[0] XSCT1_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X566 ua[0] XSCT1_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X567 ua[0] XSCT1_3/D VGND sky130_fd_pr__cap_var_lvt w=2 l=0.8
+X568 VGND uio_in[0] XSCT2_8/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X569 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X570 XA1/G ua[0] ua[3] XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X571 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X572 ua[3] ua[0] XA1/G XSWB1/D sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=25 l=8
+X573 XPB/D ua[4] sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X574 XMR4/D XMR3/D sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X575 VGND uio_in[3] XSWF4/G VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.145 ps=1.58 w=0.5 l=0.5
+X576 ua[0] XSCT1_4/D VGND sky130_fd_pr__cap_var_lvt w=8 l=3.2
+X577 VGND uio_in[1] XSCT2_9/D VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X578 ua[5] XA2/G XA2/G ua[5] sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=1.16 ps=9.16 w=2 l=2
+X579 XMR3/D XMR4/D sky130_fd_pr__cap_mim_m3_1 l=30 w=30
+X580 ua[0] XSCT1_5/D VGND sky130_fd_pr__cap_var_lvt w=8 l=3.2
+X581 ua[0] XSCT1_5/D VGND sky130_fd_pr__cap_var_lvt w=8 l=3.2
+X582 XA2/G XLD2/S XLD2/S XA2/G sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=1.16 ps=9.16 w=2 l=2
+C0 VDPWR XMRB22/S 0.09286f
+C1 VDPWR XSWB1/D 2.50266f
+C2 VDPWR XMRB23/S 0.17462f
+C3 VDPWR XMRB12/S 0.06326f
+C4 VDPWR XMRB13/S 0.4709f
+C5 VDPWR ui_in[0] 0.08707f
+C6 VDPWR clk 2.44342f
+C7 VDPWR XIKCP/D 2.19223f
+C8 VDPWR XSWB2/D 0.09379f
+C9 VDPWR ua[1] 0.00399f
+C10 VDPWR ui_in[1] 0.07621f
+C11 VDPWR ui_in[2] 0.09063f
+C12 VDPWR uio_in[4] 0.0829f
+C13 VDPWR ui_in[3] 0.08738f
+C14 VDPWR uio_in[5] 0.0793f
+C15 VDPWR ui_in[4] 0.08648f
+C16 VDPWR ui_in[5] 0.09525f
+C17 VDPWR XI2aP/D 2.47252f
+C18 VDPWR ua[5] 0.02851f
+C19 VDPWR XI1aP/G 3.12131f
+C20 VDPWR XNDAaN2/D 0.02278f
+C21 VDPWR ui_in[6] 0.09375f
+C22 VDPWR uio_in[2] 2.58723f
+C23 VDPWR ui_in[7] 0.08498f
+C24 VDPWR uio_in[0] 0.08498f
+C25 VDPWR uio_in[1] 0.07621f
+C26 VDPWR XI2bP/G 1.92666f
+C27 VDPWR XI2aP/G 2.2243f
+C28 VDPWR ua[2] 0.02715f
+C29 VDPWR XMR4/D 1.23436f
+C30 VDPWR XMR3/D 0.25907f
+C31 VDPWR XMREP/G 0.44515f
+C32 VDPWR XI2bP/D 1.49557f
+C33 VDPWR XI1bP/G 3.0367f
+C34 VDPWR XNDAbN2/D 0.02234f
+C35 VDPWR ua[3] 3.41159f
+C36 VDPWR XA1/G 0.19528f
+C37 VDPWR uio_in[3] 1.71093f
+C38 VDPWR XSWF4/G 0.93957f
+C39 VDPWR ua[0] 0.00379f
+C40 XSCT1_6/D XSCT1_7/D 0.73426f
+C41 XSCT1_6/D XSCT1_8/D 0.00395f
+C42 XSCT1_6/D XSWB1/D 1.78444f
+C43 XSCT1_6/D ui_in[0] 0.01737f
+C44 XSCT1_6/D XSWB2/D 0.58337f
+C45 XSCT1_6/D ua[1] 0.63532f
+C46 XSCT1_6/D ui_in[1] 0.46153f
+C47 XSCT1_6/D ui_in[2] 0.05831f
+C48 XSCT1_6/D ui_in[4] 0
+C49 XSCT1_6/D ui_in[5] 0
+C50 XSCT1_6/D ui_in[6] 0.08194f
+C51 XSCT1_6/D XSCT1_9/D 2.47278f
+C52 XSCT1_6/D ua[2] 2.74434f
+C53 XSCT1_6/D ua[4] 0.04473f
+C54 XSCT1_6/D XSCT1_2/D 0
+C55 XSCT1_6/D XSCT1_3/D 1.04403f
+C56 XSCT1_6/D ua[3] 0.79602f
+C57 XSCT1_6/D XA1/G 0.81041f
+C58 XSCT1_6/D XSCT1_5/D 0.18005f
+C59 XSCT1_6/D XSCT1_0/D 0.37293f
+C60 XSCT1_6/D XSCT1_1/D 0.5953f
+C61 XSCT1_6/D ua[0] 21.24962f
+C62 XLD3/S XLD4/S 2.37876f
+C63 XLD3/S XLD5/S 0.05702f
+C64 XLD3/S ua[5] 1.15343f
+C65 XLD3/S XS2/G 0.00562f
+C66 XLD3/S XBP/G 0.20012f
+C67 XLD3/S ua[2] 0
+C68 XLD3/S XPB/G 0.03217f
+C69 XLD3/S XMR4/D 0.0279f
+C70 XLD3/S XMREP/G 0
+C71 XLD3/S ua[4] 1.50136f
+C72 XLD3/S XPB/D 0.00298f
+C73 XLD3/S XI2bP/D 0.38322f
+C74 XLD3/S XA1/G 0
+C75 XLD3/S XA2/G 0.01923f
+C76 XLD3/S XLD2/S 2.00402f
+C77 XSCT1_7/D XSCT1_8/D 1.23372f
+C78 XSCT1_7/D XSWB1/D 0.13354f
+C79 XSCT1_7/D XSWB2/D 0.42445f
+C80 XSCT1_7/D ua[1] 9.02828f
+C81 XSCT1_7/D ui_in[1] 0.05344f
+C82 XSCT1_7/D ui_in[2] 0.2894f
+C83 XSCT1_7/D ui_in[4] 0
+C84 XSCT1_7/D ui_in[6] 0
+C85 XSCT1_7/D ui_in[7] 0.08129f
+C86 XSCT1_7/D XSCT1_9/D 0.38279f
+C87 XSCT1_7/D uio_in[0] 0
+C88 XSCT1_7/D uio_in[1] 0
+C89 XSCT1_7/D ua[2] 3.7196f
+C90 XSCT1_7/D ua[4] 1.35418f
+C91 XSCT1_7/D XSCT1_2/D 0.37297f
+C92 XSCT1_7/D XSCT1_3/D 0.30549f
+C93 XSCT1_7/D ua[3] 0.06612f
+C94 XSCT1_7/D XA1/G 1.53122f
+C95 XSCT1_7/D XSCT1_5/D 0.19193f
+C96 XSCT1_7/D XSCT1_0/D 0.12293f
+C97 XSCT1_7/D XSCT1_1/D 0.40683f
+C98 XSCT1_7/D ua[0] 32.13558f
+C99 XLD4/S XLD5/S 2.08571f
+C100 XLD4/S XLD6/S 0.02251f
+C101 XLD4/S ua[5] 0.70037f
+C102 XLD4/S XS2/G 0.00783f
+C103 XLD4/S XBP/G 0.4411f
+C104 XLD4/S ua[2] 0
+C105 XLD4/S XPB/G 0.037f
+C106 XLD4/S XMR4/D 0.00594f
+C107 XLD4/S XMREP/G 0.00107f
+C108 XLD4/S ua[4] 1.26124f
+C109 XLD4/S XPB/D 0.02019f
+C110 XLD4/S XI2bP/D 0.19028f
+C111 XLD4/S XA1/G 0
+C112 XLD4/S XLD2/S 0.02084f
+C113 XSCT1_8/D XSWB1/D 0.2774f
+C114 XSCT1_8/D XSWB2/D 4.82213f
+C115 XSCT1_8/D ua[1] 13.43656f
+C116 XSCT1_8/D ui_in[2] 0.05141f
+C117 XSCT1_8/D ui_in[3] 0.00928f
+C118 XSCT1_8/D ui_in[4] 0
+C119 XSCT1_8/D ui_in[7] 0
+C120 XSCT1_8/D XSCT1_9/D 2.06274f
+C121 XSCT1_8/D uio_in[0] 0.06011f
+C122 XSCT1_8/D uio_in[1] 0
+C123 XSCT1_8/D XSCT2_8/D 0.00855f
+C124 XSCT1_8/D ua[2] 8.25087f
+C125 XSCT1_8/D XSCT2_9/D 0.00872f
+C126 XSCT1_8/D ua[4] 3.66313f
+C127 XSCT1_8/D XSCT1_2/D 0.60234f
+C128 XSCT1_8/D XSCT1_3/D 1.10092f
+C129 XSCT1_8/D ua[3] 2.93842f
+C130 XSCT1_8/D XA1/G 6.14094f
+C131 XSCT1_8/D XSCT1_5/D 0.19197f
+C132 XSCT1_8/D XSCT1_0/D 0.32286f
+C133 XSCT1_8/D XSCT1_1/D 0.41029f
+C134 XSCT1_8/D ua[0] 63.22485f
+C135 XLD5/S XLD6/S 2.15568f
+C136 XLD5/S ua[5] 0.6875f
+C137 XLD5/S XS2/G 0.00459f
+C138 XLD5/S XBP/G 0.20322f
+C139 XLD5/S XPB/G 0.03189f
+C140 XLD5/S XMREP/G 0
+C141 XLD5/S ua[4] 1.5807f
+C142 XLD5/S XPB/D 0.03338f
+C143 XLD5/S XI2bP/D 0.06991f
+C144 XMRB21/S XMRB11/S 0.05901f
+C145 XMRB21/S XMRB22/S 1.42309f
+C146 XMRB21/S XMRB23/S 0.00422f
+C147 XMRB21/S XMRB12/S 0.78784f
+C148 XMRB21/S XSWB2/D 0.94516f
+C149 XMRB21/S uio_in[4] 0.10473f
+C150 XMRB21/S ui_in[3] 0.00916f
+C151 XMRB21/S ui_in[4] 0.10409f
+C152 XMRB21/S ui_in[5] 0.12361f
+C153 XMRB21/S XI2aP/D 0.03276f
+C154 XMRB21/S ua[5] 0.00137f
+C155 XMRB21/S ui_in[6] 0.14075f
+C156 XMRB21/S ui_in[7] 0.11394f
+C157 XMRB21/S uio_in[0] 0.11571f
+C158 XMRB21/S uio_in[1] 0.09109f
+C159 XMRB21/S ua[2] 0.02261f
+C160 XMRB21/S XMR4/D 0.01135f
+C161 XMRB21/S XMR3/D 0.19163f
+C162 XMRB21/S XMREP/G 6.88912f
+C163 XMRB21/S ua[3] 0
+C164 XMRB21/S XA1/G 1.11249f
+C165 XLD6/S ua[5] 0.89733f
+C166 XLD6/S XS2/G 0.14249f
+C167 XLD6/S XBP/G 0.2056f
+C168 XLD6/S XPB/G 0.03423f
+C169 XLD6/S XMREP/G 0
+C170 XLD6/S ua[4] 1.62272f
+C171 XLD6/S XPB/D 0.03077f
+C172 XLD6/S XI2bP/D 0.07003f
+C173 XLD6/S XA1/G 0
+C174 XMRB11/S XMRB22/S 0.01278f
+C175 XMRB11/S XMRB12/S 1.47626f
+C176 XMRB11/S XMRB13/S 0.00232f
+C177 XMRB11/S XI2aP/D 0.37437f
+C178 XMRB11/S ua[5] 0.00457f
+C179 XMRB11/S ua[2] 0
+C180 XMRB11/S XMR4/D 0
+C181 XMRB11/S XMR3/D 0.06656f
+C182 XMRB11/S XMREP/G 6.45726f
+C183 XMRB11/S XA1/G 1.38647f
+C184 XMRB22/S XSWB1/D 0.00686f
+C185 XMRB22/S XMRB23/S 1.24123f
+C186 XMRB22/S XMRB12/S 0.52077f
+C187 XMRB22/S XSWB2/D 1.33861f
+C188 XMRB22/S uio_in[4] 0.10373f
+C189 XMRB22/S ui_in[3] 0.0087f
+C190 XMRB22/S ui_in[4] 0.10495f
+C191 XMRB22/S ui_in[5] 0.15561f
+C192 XMRB22/S XI2aP/D 0.02718f
+C193 XMRB22/S ui_in[6] 0.14093f
+C194 XMRB22/S uio_in[2] 0.00445f
+C195 XMRB22/S ui_in[7] 0.11422f
+C196 XMRB22/S uio_in[0] 0.11597f
+C197 XMRB22/S uio_in[1] 0.09121f
+C198 XMRB22/S XMR3/D 0.31263f
+C199 XMRB22/S XMREP/G 7.16073f
+C200 XMRB22/S ua[3] 0.02891f
+C201 XMRB22/S XA1/G 0.01915f
+C202 XMRB22/S uio_in[3] 0.13863f
+C203 XMRB22/S XSWF4/G 0.00994f
+C204 XSWB1/D XMRB23/S 0.24133f
+C205 XSWB1/D XMRB12/S 0.00923f
+C206 XSWB1/D XMRB13/S 0.68239f
+C207 XSWB1/D ui_in[0] 0.44717f
+C208 XSWB1/D clk 0.38408f
+C209 XSWB1/D XSWB2/D 22.01425f
+C210 XSWB1/D ua[1] 18.41566f
+C211 XSWB1/D ui_in[1] 7.36227f
+C212 XSWB1/D ui_in[2] 0.67487f
+C213 XSWB1/D uio_in[4] 3.05616f
+C214 XSWB1/D ui_in[3] 3.30141f
+C215 XSWB1/D uio_in[5] 4.73747f
+C216 XSWB1/D XSCT2_2/D 0.21226f
+C217 XSWB1/D ui_in[4] 0.25076f
+C218 XSWB1/D XSCT2_3/D 0.05715f
+C219 XSWB1/D ui_in[5] 0.28242f
+C220 XSWB1/D XI2aP/D 0.06807f
+C221 XSWB1/D ua[5] 4.75779f
+C222 XSWB1/D ui_in[6] 0.27211f
+C223 XSWB1/D uio_in[2] 0.31694f
+C224 XSWB1/D ui_in[7] 0.29902f
+C225 XSWB1/D XSCT2_6/D 2.37573f
+C226 XSWB1/D XSCT1_9/D 3.91516f
+C227 XSWB1/D uio_in[0] 0.32127f
+C228 XSWB1/D XSCT2_7/D 0.4648f
+C229 XSWB1/D uio_in[1] 0.38248f
+C230 XSWB1/D XBP/G 0.01048f
+C231 XSWB1/D XSCT2_8/D 3.14281f
+C232 XSWB1/D ua[2] 3.97503f
+C233 XSWB1/D XSCT2_9/D 3.55774f
+C234 XSWB1/D XMR4/D 0.34402f
+C235 XSWB1/D XMR3/D 0.11836f
+C236 XSWB1/D XMREP/G 0.71552f
+C237 XSWB1/D ua[4] 1.50283f
+C238 XSWB1/D XPB/D 0
+C239 XSWB1/D XI2bP/D 0.03162f
+C240 XSWB1/D XSCT1_3/D 0.06112f
+C241 XSWB1/D ua[3] 90.40013f
+C242 XSWB1/D XA1/G 34.03674f
+C243 XSWB1/D uio_in[3] 0.17731f
+C244 XSWB1/D XSWF4/G 0.2522f
+C245 XSWB1/D XSCT1_5/D 0.01537f
+C246 XSWB1/D XSCT2_0/D 0.24452f
+C247 XSWB1/D XSCT2_1/D 0.16245f
+C248 XSWB1/D XSCT1_0/D 0.08348f
+C249 XSWB1/D XSCT1_1/D 0
+C250 XSWB1/D ua[0] 0.79273p
+C251 XSWB1/D ua[7] 0.00226f
+C252 XSWB1/D ua[6] 0.00226f
+C253 XMRB23/S XMRB12/S 0.22962f
+C254 XMRB23/S XMRB13/S 0.06195f
+C255 XMRB23/S XSWB2/D 1.2561f
+C256 XMRB23/S uio_in[4] 0.0915f
+C257 XMRB23/S ui_in[3] 0.00785f
+C258 XMRB23/S uio_in[5] 0.01651f
+C259 XMRB23/S ui_in[4] 0.09946f
+C260 XMRB23/S ui_in[5] 0.1646f
+C261 XMRB23/S XI2aP/D 0.00262f
+C262 XMRB23/S ui_in[6] 0.12124f
+C263 XMRB23/S uio_in[2] 1.10568f
+C264 XMRB23/S ui_in[7] 0.09752f
+C265 XMRB23/S uio_in[0] 0.09917f
+C266 XMRB23/S uio_in[1] 0.14549f
+C267 XMRB23/S XMR3/D 0
+C268 XMRB23/S XMREP/G 6.44928f
+C269 XMRB23/S XA1/G 0.03784f
+C270 XMRB23/S uio_in[3] 1.46835f
+C271 XMRB23/S XSWF4/G 0.01113f
+C272 XMRB12/S XMRB13/S 1.43809f
+C273 XMRB12/S XSWB2/D 0.00136f
+C274 XMRB12/S uio_in[4] 0
+C275 XMRB12/S XI2aP/D 0.28443f
+C276 XMRB12/S ui_in[7] 0
+C277 XMRB12/S uio_in[0] 0
+C278 XMRB12/S uio_in[1] 0
+C279 XMRB12/S XMR4/D 0.00138f
+C280 XMRB12/S XMR3/D 0.03179f
+C281 XMRB12/S XMREP/G 10.4257f
+C282 XMRB12/S XA1/G 0.01818f
+C283 XRML/D uio_in[4] 0.43695f
+C284 XRML/D XRN2/S7 0
+C285 XRML/D uio_in[5] 0.24736f
+C286 XRML/D XRS1/D 0.09676f
+C287 XRML/D XRS2/D 0.02403f
+C288 XRML/D XI2aP/D 0.24399f
+C289 XRML/D ua[5] 7.1563f
+C290 XRML/D XRP1/D 0.22496f
+C291 XRML/D XRP2/G 0.57311f
+C292 XRML/D XBP/G 0.01118f
+C293 XRML/D ua[4] 0.20489f
+C294 XRML/D XPB/D 2.05232f
+C295 XRML/D XI2bP/D 0.25129f
+C296 XS1/D ua[5] 0.10732f
+C297 XS1/D XNDAaN2/D 0
+C298 XS1/D XS2/G 0.21273f
+C299 XS1/D XBP/G 0.04485f
+C300 XS1/D XPB/G 0.76074f
+C301 XS1/D XMREP/G 1.4546f
+C302 XS1/D ua[4] 0.01635f
+C303 XS1/D XPB/D 0.14638f
+C304 XS1/D XI2bP/D 0
+C305 XS1/D XA1/G 0.19716f
+C306 XS1/D XA2/G 0.32902f
+C307 XS1/D XLD2/S 0.00825f
+C308 XMRB13/S XSWB2/D 0.01288f
+C309 XMRB13/S XI2aP/D 0.02234f
+C310 XMRB13/S XMR3/D 0.00405f
+C311 XMRB13/S XMREP/G 7.03668f
+C312 XMRB13/S uio_in[3] 0.02391f
+C313 ui_in[0] clk 0.19487f
+C314 ui_in[0] XSWB2/D 0.70475f
+C315 ui_in[0] ua[1] 5.36362f
+C316 ui_in[0] ui_in[1] 9.52153f
+C317 ui_in[0] ui_in[2] 1.74529f
+C318 ui_in[0] uio_in[4] 0.77054f
+C319 ui_in[0] ui_in[3] 0.07234f
+C320 ui_in[0] uio_in[5] 1.46415f
+C321 ui_in[0] XSCT2_2/D 0.01017f
+C322 ui_in[0] ui_in[4] 0.34109f
+C323 ui_in[0] ui_in[5] 0.66985f
+C324 ui_in[0] XI2aP/D 0.07067f
+C325 ui_in[0] ua[5] 1.26944f
+C326 ui_in[0] ui_in[6] 5.14836f
+C327 ui_in[0] uio_in[2] 0.09024f
+C328 ui_in[0] ui_in[7] 1.19985f
+C329 ui_in[0] XSCT2_6/D 0.17127f
+C330 ui_in[0] XRP1/D 0.00118f
+C331 ui_in[0] XRP2/G 0
+C332 ui_in[0] uio_in[0] 7.35018f
+C333 ui_in[0] XSCT2_7/D 1.13791f
+C334 ui_in[0] uio_in[1] 5.64582f
+C335 ui_in[0] XBP/G 0.23613f
+C336 ui_in[0] XSCT2_8/D 0.06262f
+C337 ui_in[0] ua[2] 4.26537f
+C338 ui_in[0] XSCT2_9/D 0.17402f
+C339 ui_in[0] XMR4/D 3.23143f
+C340 ui_in[0] XMR3/D 0.14013f
+C341 ui_in[0] XMREP/G 0.07468f
+C342 ui_in[0] ua[4] 1.73887f
+C343 ui_in[0] XPB/D 0
+C344 ui_in[0] XI2bP/D 0.0116f
+C345 ui_in[0] ua[3] 0.67255f
+C346 ui_in[0] XA1/G 3.31201f
+C347 ui_in[0] uio_in[3] 0.07328f
+C348 ui_in[0] XSWF4/G 0.22186f
+C349 ui_in[0] XSCT1_5/D 0.02723f
+C350 ui_in[0] XSCT2_5/D 1.49592f
+C351 ui_in[0] XSCT2_0/D 0.05945f
+C352 ui_in[0] XSCT2_1/D 0.00152f
+C353 ui_in[0] XSCT1_0/D 0.07218f
+C354 ui_in[0] XSCT1_1/D 0
+C355 ui_in[0] ua[0] 2.47819f
+C356 ui_in[0] rst_n 0.03103f
+C357 clk XIKCP/D 0.43851f
+C358 clk XSWB2/D 0
+C359 clk ui_in[1] 1.36459f
+C360 clk ui_in[2] 0.17906f
+C361 clk uio_in[5] 0.68288f
+C362 clk XI2aP/D 0.00847f
+C363 clk XI1aP/G 0.50886f
+C364 clk XNDAaN2/D 0.07231f
+C365 clk uio_in[2] 0.99728f
+C366 clk XI2aP/G 0
+C367 clk XA1/G 0.01538f
+C368 clk uio_in[3] 1.1852f
+C369 clk XSWF4/G 0.00349f
+C370 clk rst_n 0.03103f
+C371 clk ena 0.03103f
+C372 XIKCP/D XI2aP/D 0.39679f
+C373 XIKCP/D XI1aP/G 0.23676f
+C374 XIKCP/D XNDAaN2/D 0.23184f
+C375 XIKCP/D uio_in[2] 0.31335f
+C376 XIKCP/D XS2/G 0.00596f
+C377 XIKCP/D XI2bP/G 0
+C378 XIKCP/D XI2aP/G 0.30848f
+C379 XIKCP/D XI1bP/G 0.98769f
+C380 XIKCP/D XNDAbN2/D 0.16838f
+C381 XIKCP/D XA1/G 0.00551f
+C382 XIKCP/D uio_in[3] 0.01411f
+C383 XIKCP/D XSWF4/G 0.018f
+C384 XSWB2/D ua[1] 0.79388p
+C385 XSWB2/D ui_in[1] 1.13401f
+C386 XSWB2/D ui_in[2] 1.91102f
+C387 XSWB2/D uio_in[4] 3.10897f
+C388 XSWB2/D ui_in[3] 2.29244f
+C389 XSWB2/D uio_in[5] 0.44217f
+C390 XSWB2/D ui_in[4] 0.14801f
+C391 XSWB2/D ui_in[5] 2.33301f
+C392 XSWB2/D XI2aP/D 0.07341f
+C393 XSWB2/D ua[5] 5.19847f
+C394 XSWB2/D ui_in[6] 0.48243f
+C395 XSWB2/D uio_in[2] 0.70803f
+C396 XSWB2/D ui_in[7] 0.26063f
+C397 XSWB2/D XSCT2_6/D 0.62187f
+C398 XSWB2/D XSCT1_9/D 9.1197f
+C399 XSWB2/D XRP1/D 0.04676f
+C400 XSWB2/D XRP2/G 0.0385f
+C401 XSWB2/D uio_in[0] 0.23065f
+C402 XSWB2/D XSCT2_7/D 0.61772f
+C403 XSWB2/D uio_in[1] 2.94503f
+C404 XSWB2/D XBP/G 0.0066f
+C405 XSWB2/D XSCT2_8/D 2.19885f
+C406 XSWB2/D ua[2] 85.01295f
+C407 XSWB2/D XSCT2_9/D 5.73294f
+C408 XSWB2/D XMR4/D 0.91604f
+C409 XSWB2/D XMR3/D 0.35957f
+C410 XSWB2/D XMREP/G 0.90597f
+C411 XSWB2/D ua[4] 3.7494f
+C412 XSWB2/D XPB/D 0
+C413 XSWB2/D XI2bP/D 0.02011f
+C414 XSWB2/D ua[3] 11.26959f
+C415 XSWB2/D XA1/G 32.70281f
+C416 XSWB2/D uio_in[3] 0.25039f
+C417 XSWB2/D XSWF4/G 0.14235f
+C418 XSWB2/D XSCT2_5/D 0.1588f
+C419 XSWB2/D ua[0] 17.2791f
+C420 ua[1] ui_in[1] 8.99091f
+C421 ua[1] ui_in[2] 11.16191f
+C422 ua[1] uio_in[4] 1.58394f
+C423 ua[1] XRN2/S7 0.72257f
+C424 ua[1] ui_in[3] 7.29781f
+C425 ua[1] uio_in[5] 8.44333f
+C426 ua[1] XRS1/D 0
+C427 ua[1] XRS2/D 0.01777f
+C428 ua[1] XSCT2_2/D 4.27693f
+C429 ua[1] ui_in[4] 7.2503f
+C430 ua[1] XSCT2_3/D 8.15014f
+C431 ua[1] ui_in[5] 3.47062f
+C432 ua[1] ua[5] 2.14551f
+C433 ua[1] ui_in[6] 1.7233f
+C434 ua[1] ui_in[7] 3.15332f
+C435 ua[1] XSCT2_6/D 18.4936f
+C436 ua[1] XSCT1_9/D 11.35828f
+C437 ua[1] XRP1/D 0.90985f
+C438 ua[1] XRP2/G 0.78323f
+C439 ua[1] uio_in[0] 3.56402f
+C440 ua[1] XSCT2_7/D 39.74947f
+C441 ua[1] uio_in[1] 12.12404f
+C442 ua[1] XBP/G 0.16851f
+C443 ua[1] XSCT2_8/D 74.57625f
+C444 ua[1] ua[2] 81.43696f
+C445 ua[1] XSCT2_9/D 0.15074p
+C446 ua[1] XMR4/D 0.03237f
+C447 ua[1] XMR3/D 0.52587f
+C448 ua[1] ua[4] 7.04414f
+C449 ua[1] XPB/D 0.0049f
+C450 ua[1] XI2bP/D 0.83305f
+C451 ua[1] ua[3] 60.62954f
+C452 ua[1] XA1/G 89.06194f
+C453 ua[1] XSCT2_5/D 7.56451f
+C454 ua[1] XSCT2_0/D 2.48648f
+C455 ua[1] XSCT2_1/D 2.44466f
+C456 ua[1] XSCT2_4/D 3.8296f
+C457 ua[1] ua[0] 62.91248f
+C458 ui_in[1] ui_in[2] 3.5727f
+C459 ui_in[1] uio_in[4] 0.07716f
+C460 ui_in[1] ui_in[3] 1.39467f
+C461 ui_in[1] uio_in[5] 0.82266f
+C462 ui_in[1] XSCT2_2/D 0.01032f
+C463 ui_in[1] ui_in[4] 4.16449f
+C464 ui_in[1] XSCT2_3/D 0
+C465 ui_in[1] ui_in[5] 0.65506f
+C466 ui_in[1] XI2aP/D 0.05997f
+C467 ui_in[1] ua[5] 0.54484f
+C468 ui_in[1] ui_in[6] 0.34666f
+C469 ui_in[1] uio_in[2] 0.06407f
+C470 ui_in[1] ui_in[7] 1.32024f
+C471 ui_in[1] XSCT2_6/D 0.175f
+C472 ui_in[1] uio_in[0] 0.22042f
+C473 ui_in[1] XSCT2_7/D 0.07786f
+C474 ui_in[1] uio_in[1] 1.89006f
+C475 ui_in[1] XBP/G 0.05903f
+C476 ui_in[1] XSCT2_8/D 0.06047f
+C477 ui_in[1] ua[2] 7.73842f
+C478 ui_in[1] XSCT2_9/D 0.09528f
+C479 ui_in[1] XMR4/D 0.09069f
+C480 ui_in[1] XMR3/D 0.37573f
+C481 ui_in[1] XMREP/G 0.06398f
+C482 ui_in[1] ua[4] 0.13312f
+C483 ui_in[1] XI2bP/D 0.29116f
+C484 ui_in[1] XSCT1_2/D 0
+C485 ui_in[1] ua[3] 1.36905f
+C486 ui_in[1] XA1/G 0.85007f
+C487 ui_in[1] uio_in[3] 0.05994f
+C488 ui_in[1] XSWF4/G 0.07252f
+C489 ui_in[1] XSCT1_5/D 0.1262f
+C490 ui_in[1] XSCT2_5/D 0
+C491 ui_in[1] XSCT2_0/D 0.00182f
+C492 ui_in[1] XSCT2_1/D 0.06494f
+C493 ui_in[1] XSCT1_1/D 0.07839f
+C494 ui_in[1] ua[0] 6.05523f
+C495 ui_in[2] uio_in[4] 1.48792f
+C496 ui_in[2] ui_in[3] 0.78227f
+C497 ui_in[2] uio_in[5] 11.1202f
+C498 ui_in[2] XSCT2_2/D 1.17758f
+C499 ui_in[2] ui_in[4] 3.10759f
+C500 ui_in[2] XSCT2_3/D 0
+C501 ui_in[2] ui_in[5] 0.77437f
+C502 ui_in[2] XI2aP/D 0.35625f
+C503 ui_in[2] ua[5] 2.86649f
+C504 ui_in[2] ui_in[6] 0.45753f
+C505 ui_in[2] uio_in[2] 0.07449f
+C506 ui_in[2] ui_in[7] 0.47155f
+C507 ui_in[2] XSCT2_6/D 0.09372f
+C508 ui_in[2] XRP1/D 0.21627f
+C509 ui_in[2] XRP2/G 0.09335f
+C510 ui_in[2] uio_in[0] 1.77971f
+C511 ui_in[2] XSCT2_7/D 0.09323f
+C512 ui_in[2] uio_in[1] 2.07624f
+C513 ui_in[2] XBP/G 4.10534f
+C514 ui_in[2] XSCT2_8/D 0.05465f
+C515 ui_in[2] ua[2] 0.77537f
+C516 ui_in[2] XSCT2_9/D 0.07385f
+C517 ui_in[2] XMR4/D 2.20524f
+C518 ui_in[2] XMR3/D 2.22364f
+C519 ui_in[2] XMREP/G 0.07771f
+C520 ui_in[2] ua[4] 0.63866f
+C521 ui_in[2] XPB/D 0.04793f
+C522 ui_in[2] XI2bP/D 0.22787f
+C523 ui_in[2] XSCT1_2/D 0.07941f
+C524 ui_in[2] XSCT1_3/D 0
+C525 ui_in[2] ua[3] 1.10858f
+C526 ui_in[2] XA1/G 1.23877f
+C527 ui_in[2] uio_in[3] 0.06696f
+C528 ui_in[2] XSWF4/G 0.17881f
+C529 ui_in[2] XSCT1_5/D 0.10988f
+C530 ui_in[2] XSCT2_5/D 0
+C531 ui_in[2] XSCT2_0/D 0.00854f
+C532 ui_in[2] XSCT2_1/D 0.00164f
+C533 ui_in[2] ua[0] 2.57786f
+C534 uio_in[4] ui_in[3] 0.03941f
+C535 uio_in[4] uio_in[5] 4.85825f
+C536 uio_in[4] XRS1/D 0.05979f
+C537 uio_in[4] XRS2/D 0.06261f
+C538 uio_in[4] ui_in[4] 0.06545f
+C539 uio_in[4] ui_in[5] 0.07735f
+C540 uio_in[4] XI2aP/D 0.05948f
+C541 uio_in[4] ua[5] 1.09868f
+C542 uio_in[4] ui_in[6] 0.06642f
+C543 uio_in[4] uio_in[2] 0.16585f
+C544 uio_in[4] ui_in[7] 0.22674f
+C545 uio_in[4] XRP1/D 0.09411f
+C546 uio_in[4] XRP2/G 0.92327f
+C547 uio_in[4] uio_in[0] 0.34581f
+C548 uio_in[4] uio_in[1] 8.61542f
+C549 uio_in[4] XBP/G 0.06119f
+C550 uio_in[4] ua[2] 0.15307f
+C551 uio_in[4] XMR4/D 0.07498f
+C552 uio_in[4] XMR3/D 6.98105f
+C553 uio_in[4] XMREP/G 2.1611f
+C554 uio_in[4] ua[4] 0.05741f
+C555 uio_in[4] XPB/D 0
+C556 uio_in[4] XI2bP/D 0.08275f
+C557 uio_in[4] ua[3] 0.15284f
+C558 uio_in[4] XA1/G 0.88208f
+C559 uio_in[4] uio_in[3] 0.54939f
+C560 uio_in[4] ua[0] 5.00279f
+C561 XRN2/S7 XRR0/R1_2 0.27988f
+C562 XRN2/S7 XRR0/R1_4 0.00414f
+C563 XRN2/S7 XRS1/D 1.8558f
+C564 XRN2/S7 XRS2/D 0.72226f
+C565 XRN2/S7 ui_in[4] 0.2936f
+C566 XRN2/S7 XRR2/R1_2 0
+C567 XRN2/S7 XRP1/D 1.54746f
+C568 XRN2/S7 XRP2/G 2.82754f
+C569 XRN2/S7 uio_in[0] 0.19307f
+C570 XRN2/S7 uio_in[1] 0
+C571 XRN2/S7 XSCT2_9/D 0.00201f
+C572 XRN2/S7 ua[4] 0.00155f
+C573 XRN2/S7 XI2bP/D 0.25504f
+C574 XRN2/S7 XSCT2_5/D 0.00422f
+C575 XRR0/R2_1 XRR0/R2_3 0.27962f
+C576 XRR0/R2_1 XRR2/R2_3 0.00361f
+C577 XRR0/R2_1 XI2aP/D 0.04857f
+C578 XRR0/R1_2 XRR0/R1_4 0.27962f
+C579 XRR0/R1_2 XRS1/D 0
+C580 XRR0/R1_2 XRS2/D 0
+C581 XRR0/R1_2 XRP1/D 0
+C582 XRR0/R1_2 XRP2/G 0
+C583 XRR0/R1_2 XI2bP/D 0.01869f
+C584 XRR0/R2_3 XRR0/R2_5 0.27962f
+C585 XRR0/R2_3 XRR2/R2_3 0
+C586 XRR0/R2_3 XI2aP/D 0.04857f
+C587 XRR0/R1_4 XRR0/R1_6 0.27962f
+C588 XRR0/R1_4 XRS1/D 0
+C589 XRR0/R1_4 XRS2/D 0
+C590 XRR0/R1_4 XRP1/D 0
+C591 XRR0/R1_4 XRP2/G 0
+C592 XRR0/R1_4 XI2bP/D 0.01869f
+C593 XRR0/R2_5 XRR0/R2_7 0.27962f
+C594 XRR0/R2_5 XRR2/R2_3 0
+C595 XRR0/R2_5 XI2aP/D 0.04857f
+C596 XRR0/R1_6 XRR0/R1_8 0.27962f
+C597 XRR0/R1_6 XRS1/D 0
+C598 XRR0/R1_6 XRP1/D 0
+C599 XRR0/R1_6 XRP2/G 0
+C600 XRR0/R1_6 XI2bP/D 0.01869f
+C601 XRR0/R2_7 XRR0/R2_9 0.27962f
+C602 XRR0/R2_7 XRR2/R2_3 0
+C603 XRR0/R2_7 XI2aP/D 0.04857f
+C604 XRR0/R1_8 XRR0/R1_9 0.27962f
+C605 XRR0/R1_8 XRS1/D 0
+C606 XRR0/R1_8 XRP1/D 0
+C607 XRR0/R1_8 XRP2/G 0
+C608 XRR0/R1_8 XI2bP/D 0.01869f
+C609 XRR0/R2_9 XRR0/R2_11 0.27962f
+C610 XRR0/R2_9 XI2aP/D 0.04857f
+C611 XRR0/R1_9 XRR0/R1_12 0.27962f
+C612 XRR0/R1_9 XRS1/D 0
+C613 XRR0/R1_9 XRP1/D 0
+C614 XRR0/R1_9 XRP2/G 0
+C615 XRR0/R1_9 XI2bP/D 0.01869f
+C616 XRR0/R2_11 XRR0/R2_13 0.27962f
+C617 XRR0/R2_11 XI2aP/D 0.0446f
+C618 XRR0/R1_12 XRR0/R1_14 0.27962f
+C619 XRR0/R1_12 XRS1/D 0
+C620 XRR0/R1_12 XRP1/D 0
+C621 XRR0/R1_12 XRP2/G 0
+C622 XRR0/R2_13 XRR0/R2_15 0.27962f
+C623 XRR0/R2_13 XI2aP/D 0.04077f
+C624 XRR0/R1_14 XRS1/D 0.28001f
+C625 XRR0/R1_14 XI2aP/D 0
+C626 XRR0/R1_14 XRP1/D 0
+C627 XRR0/R1_14 XRP2/G 0.00327f
+C628 XRR0/R2_15 XI2aP/D 0.04077f
+C629 ui_in[3] uio_in[5] 0.08868f
+C630 ui_in[3] XSCT2_2/D 1.47485f
+C631 ui_in[3] ui_in[4] 4.55498f
+C632 ui_in[3] XSCT2_3/D 0.06073f
+C633 ui_in[3] ui_in[5] 0.13704f
+C634 ui_in[3] XI2aP/D 0.07868f
+C635 ui_in[3] ua[5] 0.13065f
+C636 ui_in[3] ui_in[6] 0.1409f
+C637 ui_in[3] uio_in[2] 0.08083f
+C638 ui_in[3] ui_in[7] 0.80275f
+C639 ui_in[3] XSCT2_6/D 0.77309f
+C640 ui_in[3] XSCT1_9/D 0.14915f
+C641 ui_in[3] uio_in[0] 0.92704f
+C642 ui_in[3] XSCT2_7/D 0.11464f
+C643 ui_in[3] uio_in[1] 0.14125f
+C644 ui_in[3] XSCT2_8/D 0.12971f
+C645 ui_in[3] ua[2] 1.48699f
+C646 ui_in[3] XSCT2_9/D 0.50173f
+C647 ui_in[3] XMR4/D 5.40782f
+C648 ui_in[3] XMR3/D 0.22063f
+C649 ui_in[3] XMREP/G 0.0611f
+C650 ui_in[3] ua[4] 0.11204f
+C651 ui_in[3] XI2bP/D 0.90125f
+C652 ui_in[3] XSCT1_3/D 0.06362f
+C653 ui_in[3] ua[3] 2.08115f
+C654 ui_in[3] XA1/G 3.46794f
+C655 ui_in[3] uio_in[3] 0.06861f
+C656 ui_in[3] XSWF4/G 0.07481f
+C657 ui_in[3] XSCT1_5/D 0.68208f
+C658 ui_in[3] XSCT2_5/D 1.14741f
+C659 ui_in[3] XSCT2_0/D 0.00306f
+C660 ui_in[3] XSCT2_1/D 0.02528f
+C661 ui_in[3] XSCT2_4/D 2.08239f
+C662 ui_in[3] XSCT1_4/D 0.01277f
+C663 ui_in[3] ua[0] 9.34742f
+C664 uio_in[5] XRS1/D 0
+C665 uio_in[5] XRS2/D 0.06484f
+C666 uio_in[5] ui_in[4] 0.2333f
+C667 uio_in[5] ui_in[5] 0.2354f
+C668 uio_in[5] XI2aP/D 0.06815f
+C669 uio_in[5] ua[5] 1.36798f
+C670 uio_in[5] ui_in[6] 0.2165f
+C671 uio_in[5] uio_in[2] 0.1452f
+C672 uio_in[5] ui_in[7] 0.20004f
+C673 uio_in[5] XRP1/D 0.06516f
+C674 uio_in[5] XRP2/G 0.92345f
+C675 uio_in[5] uio_in[0] 0.32803f
+C676 uio_in[5] uio_in[1] 0.20083f
+C677 uio_in[5] XBP/G 0.06363f
+C678 uio_in[5] ua[2] 0.30651f
+C679 uio_in[5] XMR4/D 0.06831f
+C680 uio_in[5] XMR3/D 0.08242f
+C681 uio_in[5] XMREP/G 0.09342f
+C682 uio_in[5] ua[4] 0.05908f
+C683 uio_in[5] XPB/D 0
+C684 uio_in[5] XI2bP/D 0.08481f
+C685 uio_in[5] ua[3] 0.35141f
+C686 uio_in[5] XA1/G 1.8953f
+C687 uio_in[5] uio_in[3] 0.16483f
+C688 uio_in[5] XSWF4/G 0.11015f
+C689 uio_in[5] ua[0] 6.74691f
+C690 uio_in[5] uio_in[6] 0.03103f
+C691 XRS1/D XRS2/D 2.90105f
+C692 XRS1/D ui_in[4] 0
+C693 XRS1/D XRR2/R1_2 0
+C694 XRS1/D XI2aP/D 0.0049f
+C695 XRS1/D ua[5] 0.31615f
+C696 XRS1/D XRP1/D 0.35059f
+C697 XRS1/D XRP2/G 0.31589f
+C698 XRS1/D uio_in[1] 0.00319f
+C699 XRS1/D XBP/G 0.09809f
+C700 XRS1/D XI2bP/D 0.95174f
+C701 XRR1/R2_1 XRR2/R2_1 0.01923f
+C702 XRR1/R2_1 XI2aP/D 0.19127f
+C703 XRS2/D ui_in[4] 0
+C704 XRS2/D XRR2/R1_2 0.27962f
+C705 XRS2/D ua[5] 0.10511f
+C706 XRS2/D XRP1/D 1.17576f
+C707 XRS2/D XRP2/G 0.13413f
+C708 XRS2/D XBP/G 0.07285f
+C709 XRS2/D XI2bP/D 2.20833f
+C710 XSCT2_2/D ui_in[4] 0.01133f
+C711 XSCT2_2/D XSCT2_3/D 0.03845f
+C712 XSCT2_2/D ui_in[5] 0.12472f
+C713 XSCT2_2/D ui_in[6] 0.21428f
+C714 XSCT2_2/D ui_in[7] 0.00173f
+C715 XSCT2_2/D uio_in[0] 0
+C716 XSCT2_2/D XSCT2_7/D 0.00137f
+C717 XSCT2_2/D uio_in[1] 0
+C718 XSCT2_2/D XI2bP/D 0.1199f
+C719 XSCT2_2/D ua[3] 0.15969f
+C720 XSCT2_2/D XA1/G 0.00868f
+C721 XSCT2_2/D XSCT2_5/D 0
+C722 XSCT2_2/D XSCT2_0/D 0.08943f
+C723 XSCT2_2/D XSCT2_1/D 3.91567f
+C724 XSCT2_2/D XSCT2_4/D 0.04197f
+C725 XSCT2_2/D ua[0] 0.71558f
+C726 ui_in[4] ui_in[5] 2.42315f
+C727 ui_in[4] XI2aP/D 0.07673f
+C728 ui_in[4] ua[5] 1.34787f
+C729 ui_in[4] ui_in[6] 12.81672f
+C730 ui_in[4] uio_in[2] 0.08349f
+C731 ui_in[4] ui_in[7] 3.0237f
+C732 ui_in[4] XSCT2_6/D 0.0856f
+C733 ui_in[4] XSCT1_9/D 0.05193f
+C734 ui_in[4] XRP1/D 0.32224f
+C735 ui_in[4] XRP2/G 0.31499f
+C736 ui_in[4] uio_in[0] 0.80313f
+C737 ui_in[4] XSCT2_7/D 0.07884f
+C738 ui_in[4] uio_in[1] 1.70021f
+C739 ui_in[4] XBP/G 0.50757f
+C740 ui_in[4] XSCT2_8/D 0.04657f
+C741 ui_in[4] ua[2] 1.14346f
+C742 ui_in[4] XSCT2_9/D 4.39156f
+C743 ui_in[4] XMR4/D 0.18226f
+C744 ui_in[4] XMR3/D 0.66194f
+C745 ui_in[4] XMREP/G 0.23237f
+C746 ui_in[4] ua[4] 0.56916f
+C747 ui_in[4] XPB/D 0.96774f
+C748 ui_in[4] XI2bP/D 0.44533f
+C749 ui_in[4] ua[3] 0.95575f
+C750 ui_in[4] XA1/G 5.08722f
+C751 ui_in[4] uio_in[3] 0.07515f
+C752 ui_in[4] XSWF4/G 0.00101f
+C753 ui_in[4] XSCT1_5/D 0.11072f
+C754 ui_in[4] XSCT2_5/D 0.56099f
+C755 ui_in[4] XSCT2_0/D 0.00162f
+C756 ui_in[4] XSCT2_1/D 0.00526f
+C757 ui_in[4] XSCT2_4/D 0.05922f
+C758 ui_in[4] XSCT1_4/D 0.08878f
+C759 ui_in[4] ua[0] 1.40273f
+C760 XRR2/R2_1 XRR2/R2_3 0.27962f
+C761 XRR2/R2_1 XI2aP/D 0.18249f
+C762 XRR2/R1_2 XI2bP/D 0.01577f
+C763 XRR2/R2_3 XI2aP/D 0.18277f
+C764 XSCT2_3/D ui_in[5] 0.0098f
+C765 XSCT2_3/D ui_in[6] 0.04038f
+C766 XSCT2_3/D XSCT2_8/D 0.00205f
+C767 XSCT2_3/D XI2bP/D 0.13022f
+C768 XSCT2_3/D XSCT2_5/D 0
+C769 XSCT2_3/D XSCT2_0/D 0.03782f
+C770 XSCT2_3/D XSCT2_1/D 0.01395f
+C771 XSCT2_3/D XSCT2_4/D 0.18733f
+C772 ui_in[5] XI2aP/D 0.08089f
+C773 ui_in[5] ua[5] 5.55261f
+C774 ui_in[5] ui_in[6] 6.4566f
+C775 ui_in[5] uio_in[2] 0.08531f
+C776 ui_in[5] ui_in[7] 14.40261f
+C777 ui_in[5] XSCT2_6/D 0.04383f
+C778 ui_in[5] XRP1/D 0
+C779 ui_in[5] XRP2/G 0
+C780 ui_in[5] uio_in[0] 0.20739f
+C781 ui_in[5] XSCT2_7/D 1.13971f
+C782 ui_in[5] uio_in[1] 0.18982f
+C783 ui_in[5] XBP/G 0.0341f
+C784 ui_in[5] XSCT2_8/D 0.10529f
+C785 ui_in[5] ua[2] 0.40019f
+C786 ui_in[5] XSCT2_9/D 0.07159f
+C787 ui_in[5] XMR4/D 0.08311f
+C788 ui_in[5] XMR3/D 1.86418f
+C789 ui_in[5] XMREP/G 0.67252f
+C790 ui_in[5] ua[4] 0.21951f
+C791 ui_in[5] XPB/D 0.00192f
+C792 ui_in[5] XI2bP/D 1.22187f
+C793 ui_in[5] ua[3] 0.92717f
+C794 ui_in[5] XA1/G 0.85579f
+C795 ui_in[5] uio_in[3] 0.07837f
+C796 ui_in[5] XSCT1_5/D 0.06689f
+C797 ui_in[5] XSCT2_5/D 0.46111f
+C798 ui_in[5] XSCT2_0/D 0.03581f
+C799 ui_in[5] XSCT2_1/D 0.04296f
+C800 ui_in[5] ua[0] 0.18587f
+C801 XI2aP/D ua[5] 0.48106f
+C802 XI2aP/D XI1aP/G 0.21177f
+C803 XI2aP/D XNDAaN2/D 0.19138f
+C804 XI2aP/D ui_in[6] 0.08089f
+C805 XI2aP/D uio_in[2] 0.34319f
+C806 XI2aP/D ui_in[7] 0.07139f
+C807 XI2aP/D XRP1/D 0
+C808 XI2aP/D XRP2/G 0
+C809 XI2aP/D uio_in[0] 0.07019f
+C810 XI2aP/D XS2/G 0.81595f
+C811 XI2aP/D uio_in[1] 0.05948f
+C812 XI2aP/D XBP/G 0.0117f
+C813 XI2aP/D XI2bP/G 0.22076f
+C814 XI2aP/D XI2aP/G 0.95866f
+C815 XI2aP/D ua[2] 0.18606f
+C816 XI2aP/D XMR4/D 1.43076f
+C817 XI2aP/D XMR3/D 1.39952f
+C818 XI2aP/D XMREP/G 0.38284f
+C819 XI2aP/D ua[4] 7.00819f
+C820 XI2aP/D XPB/D 0.01856f
+C821 XI2aP/D XI2bP/D 0.70531f
+C822 XI2aP/D XI1bP/G 0.128f
+C823 XI2aP/D XNDAbN2/D 0.18617f
+C824 XI2aP/D ua[3] 0.08175f
+C825 XI2aP/D XA1/G 1.05904f
+C826 XI2aP/D uio_in[3] 0.00256f
+C827 XI2aP/D XSWF4/G 0.19566f
+C828 XI2aP/D XA2/G 0.00128f
+C829 XI2aP/D XSCT1_5/D 0.28619f
+C830 XI2aP/D XSCT1_4/D 0.11027f
+C831 XI2aP/D ua[0] 0.10911f
+C832 ua[5] ui_in[6] 0.13023f
+C833 ua[5] ui_in[7] 0.18392f
+C834 ua[5] XRP1/D 1.23109f
+C835 ua[5] XRP2/G 7.76149f
+C836 ua[5] uio_in[0] 0.81745f
+C837 ua[5] XS2/G 0.72953f
+C838 ua[5] uio_in[1] 0.12063f
+C839 ua[5] XBP/G 0.17209p
+C840 ua[5] ua[2] 4.55256f
+C841 ua[5] XPB/G 4.26845f
+C842 ua[5] XMR4/D 37.25475f
+C843 ua[5] XMR3/D 37.22352f
+C844 ua[5] XMREP/G 0.25718f
+C845 ua[5] ua[4] 54.58847f
+C846 ua[5] XPB/D 9.63824f
+C847 ua[5] XI2bP/D 2.50058f
+C848 ua[5] ua[3] 4.96065f
+C849 ua[5] XA1/G 79.52063f
+C850 ua[5] XA2/G 3.17143f
+C851 ua[5] XLD2/S 0.80501f
+C852 ua[5] ua[0] 2.0893f
+C853 ua[5] ua[7] 0.0038f
+C854 ua[5] ua[6] 0.0038f
+C855 XI1aP/G XNDAaN2/D 0.26858f
+C856 XI1aP/G uio_in[2] 0.71597f
+C857 XI1aP/G XS2/G 0.00588f
+C858 XI1aP/G XI2aP/G 0.58317f
+C859 XI1aP/G XA1/G 0
+C860 XNDAaN2/D uio_in[2] 0.05927f
+C861 XNDAaN2/D XS2/G 0.03696f
+C862 XNDAaN2/D XI2aP/G 0.00877f
+C863 XNDAaN2/D XA1/G 0.00735f
+C864 ui_in[6] uio_in[2] 0.08343f
+C865 ui_in[6] ui_in[7] 1.24313f
+C866 ui_in[6] XSCT2_6/D 0.16474f
+C867 ui_in[6] XRP1/D 0
+C868 ui_in[6] XRP2/G 0.00192f
+C869 ui_in[6] uio_in[0] 16.45756f
+C870 ui_in[6] XSCT2_7/D 0.42612f
+C871 ui_in[6] uio_in[1] 2.95216f
+C872 ui_in[6] XBP/G 0.00614f
+C873 ui_in[6] XSCT2_8/D 0.92097f
+C874 ui_in[6] ua[2] 0.686f
+C875 ui_in[6] XSCT2_9/D 0.06701f
+C876 ui_in[6] XMR4/D 0.08146f
+C877 ui_in[6] XMR3/D 0.15022f
+C878 ui_in[6] XMREP/G 0.78008f
+C879 ui_in[6] ua[4] 0.2005f
+C880 ui_in[6] XPB/D 0.00159f
+C881 ui_in[6] XI2bP/D 0.05651f
+C882 ui_in[6] ua[3] 0.09372f
+C883 ui_in[6] XA1/G 0.26129f
+C884 ui_in[6] uio_in[3] 0.07648f
+C885 ui_in[6] XSCT1_5/D 0.01181f
+C886 ui_in[6] XSCT2_5/D 0.16275f
+C887 ui_in[6] XSCT2_0/D 0.19018f
+C888 ui_in[6] XSCT2_1/D 0.29266f
+C889 ui_in[6] ua[0] 0.0979f
+C890 uio_in[2] ui_in[7] 0.07274f
+C891 uio_in[2] uio_in[0] 0.07273f
+C892 uio_in[2] XS2/G 0
+C893 uio_in[2] uio_in[1] 0.71078f
+C894 uio_in[2] XI2bP/G 0.03605f
+C895 uio_in[2] XI2aP/G 1.20844f
+C896 uio_in[2] ua[2] 0
+C897 uio_in[2] XMREP/G 0.54553f
+C898 uio_in[2] XI2bP/D 0.03692f
+C899 uio_in[2] XI1bP/G 0.509f
+C900 uio_in[2] XNDAbN2/D 0.06447f
+C901 uio_in[2] ua[3] 0
+C902 uio_in[2] XA1/G 0.87911f
+C903 uio_in[2] uio_in[3] 0.8966f
+C904 uio_in[2] XSWF4/G 0.17938f
+C905 ui_in[7] XSCT2_6/D 0.08617f
+C906 ui_in[7] XRP1/D 0
+C907 ui_in[7] XRP2/G 0
+C908 ui_in[7] uio_in[0] 14.6808f
+C909 ui_in[7] XSCT2_7/D 0.25717f
+C910 ui_in[7] uio_in[1] 14.43142f
+C911 ui_in[7] XBP/G 0.02573f
+C912 ui_in[7] XSCT2_8/D 2.54115f
+C913 ui_in[7] ua[2] 0.55789f
+C914 ui_in[7] XSCT2_9/D 0.07721f
+C915 ui_in[7] XMR4/D 0.0716f
+C916 ui_in[7] XMR3/D 1.38736f
+C917 ui_in[7] XMREP/G 1.63995f
+C918 ui_in[7] ua[4] 0.2008f
+C919 ui_in[7] XPB/D 0.00131f
+C920 ui_in[7] XI2bP/D 1.00152f
+C921 ui_in[7] ua[3] 0.64527f
+C922 ui_in[7] XA1/G 0.35208f
+C923 ui_in[7] uio_in[3] 0.06578f
+C924 ui_in[7] XSCT1_5/D 0.00638f
+C925 ui_in[7] XSCT2_5/D 0.15611f
+C926 ui_in[7] XSCT2_0/D 0
+C927 ui_in[7] XSCT2_1/D 0.00166f
+C928 ui_in[7] ua[0] 1.25198f
+C929 XSCT2_6/D uio_in[0] 0.12345f
+C930 XSCT2_6/D XSCT2_7/D 3.83874f
+C931 XSCT2_6/D uio_in[1] 0.09524f
+C932 XSCT2_6/D XSCT2_8/D 2.19749f
+C933 XSCT2_6/D ua[2] 1.61375f
+C934 XSCT2_6/D XSCT2_9/D 1.2791f
+C935 XSCT2_6/D ua[4] 1.00132f
+C936 XSCT2_6/D XI2bP/D 0.00668f
+C937 XSCT2_6/D ua[3] 2.1268f
+C938 XSCT2_6/D XA1/G 1.81739f
+C939 XSCT2_6/D XSCT2_5/D 0.7534f
+C940 XSCT2_6/D ua[0] 3.85482f
+C941 XSCT1_9/D uio_in[0] 0
+C942 XSCT1_9/D uio_in[1] 0.05982f
+C943 XSCT1_9/D ua[2] 6.95581f
+C944 XSCT1_9/D XSCT2_9/D 0.03178f
+C945 XSCT1_9/D ua[4] 5.58686f
+C946 XSCT1_9/D XSCT1_2/D 0.0787f
+C947 XSCT1_9/D XSCT1_3/D 1.3113f
+C948 XSCT1_9/D ua[3] 13.0243f
+C949 XSCT1_9/D XA1/G 10.63743f
+C950 XSCT1_9/D XSCT1_5/D 0.19705f
+C951 XSCT1_9/D XSCT1_0/D 0.06344f
+C952 XSCT1_9/D XSCT1_1/D 0.14732f
+C953 XSCT1_9/D XSCT1_4/D 0.14275f
+C954 XSCT1_9/D ua[0] 0.14232p
+C955 XRP1/D XRP2/G 5.15652f
+C956 XRP1/D uio_in[0] 0.49592f
+C957 XRP1/D uio_in[1] 0
+C958 XRP1/D XBP/G 1.54609f
+C959 XRP1/D ua[2] 0
+C960 XRP1/D ua[4] 0.34433f
+C961 XRP1/D XI2bP/D 1.45861f
+C962 XRP1/D XA1/G 0.00612f
+C963 XRP2/G uio_in[0] 0.883f
+C964 XRP2/G uio_in[1] 0
+C965 XRP2/G XBP/G 1.17039f
+C966 XRP2/G ua[2] 0
+C967 XRP2/G XSCT2_9/D 0
+C968 XRP2/G ua[4] 2.6352f
+C969 XRP2/G XI2bP/D 0.22485f
+C970 XRP2/G XA1/G 0.02083f
+C971 uio_in[0] XSCT2_7/D 0.12494f
+C972 uio_in[0] uio_in[1] 3.96319f
+C973 uio_in[0] XBP/G 1.20829f
+C974 uio_in[0] XSCT2_8/D 0.2379f
+C975 uio_in[0] ua[2] 0.54073f
+C976 uio_in[0] XSCT2_9/D 0.1538f
+C977 uio_in[0] XMR4/D 0.06933f
+C978 uio_in[0] XMR3/D 6.14623f
+C979 uio_in[0] XMREP/G 0.57941f
+C980 uio_in[0] ua[4] 3.03792f
+C981 uio_in[0] XPB/D 0.00109f
+C982 uio_in[0] XI2bP/D 0.06177f
+C983 uio_in[0] ua[3] 1.13139f
+C984 uio_in[0] XA1/G 0.69272f
+C985 uio_in[0] uio_in[3] 0.06578f
+C986 uio_in[0] XSCT1_5/D 0.0069f
+C987 uio_in[0] XSCT2_5/D 0.28072f
+C988 uio_in[0] XSCT2_0/D 0
+C989 uio_in[0] XSCT2_1/D 0
+C990 uio_in[0] ua[0] 2.49072f
+C991 XSCT2_7/D uio_in[1] 0.09023f
+C992 XSCT2_7/D XSCT2_8/D 1.96771f
+C993 XSCT2_7/D ua[2] 3.12463f
+C994 XSCT2_7/D XSCT2_9/D 1.18244f
+C995 XSCT2_7/D ua[4] 0.08645f
+C996 XSCT2_7/D XI2bP/D 0.0152f
+C997 XSCT2_7/D ua[3] 0.42558f
+C998 XSCT2_7/D XA1/G 1.89213f
+C999 XSCT2_7/D XSCT2_5/D 0.19184f
+C1000 XSCT2_7/D ua[0] 5.28413f
+C1001 XS2/G XBP/G 0.50545f
+C1002 XS2/G XI2bP/G 0
+C1003 XS2/G XI2aP/G 0
+C1004 XS2/G XPB/G 0.09473f
+C1005 XS2/G XMREP/G 2.38415f
+C1006 XS2/G ua[4] 1.56451f
+C1007 XS2/G XPB/D 0.69986f
+C1008 XS2/G XI2bP/D 0.38755f
+C1009 XS2/G XI1bP/G 0.00531f
+C1010 XS2/G XNDAbN2/D 0.02889f
+C1011 XS2/G XA1/G 0.84112f
+C1012 XS2/G XSWF4/G 0.011f
+C1013 XS2/G XA2/G 0.38987f
+C1014 XS2/G XLD2/S 0
+C1015 uio_in[1] XBP/G 0.01715f
+C1016 uio_in[1] XSCT2_8/D 0.05503f
+C1017 uio_in[1] ua[2] 2.8038f
+C1018 uio_in[1] XSCT2_9/D 0.46316f
+C1019 uio_in[1] XMR4/D 0.05937f
+C1020 uio_in[1] XMR3/D 0.35339f
+C1021 uio_in[1] XMREP/G 0.5679f
+C1022 uio_in[1] ua[4] 1.80053f
+C1023 uio_in[1] XPB/D 0
+C1024 uio_in[1] XI2bP/D 0.2797f
+C1025 uio_in[1] ua[3] 0.22107f
+C1026 uio_in[1] XA1/G 0.61147f
+C1027 uio_in[1] uio_in[3] 0.04614f
+C1028 uio_in[1] XSCT1_5/D 0.00708f
+C1029 uio_in[1] XSCT2_5/D 0.53944f
+C1030 uio_in[1] XSCT2_0/D 0
+C1031 uio_in[1] XSCT2_1/D 0
+C1032 uio_in[1] ua[0] 1.66242f
+C1033 XBP/G ua[2] 0.56663f
+C1034 XBP/G XPB/G 0.24161f
+C1035 XBP/G XMR4/D 8.35917f
+C1036 XBP/G XMR3/D 8.14873f
+C1037 XBP/G XMREP/G 0.03202f
+C1038 XBP/G ua[4] 34.9432f
+C1039 XBP/G XPB/D 4.45298f
+C1040 XBP/G XI2bP/D 8.05027f
+C1041 XBP/G ua[3] 0.55674f
+C1042 XBP/G XA1/G 37.72638f
+C1043 XBP/G XA2/G 0.38906f
+C1044 XBP/G XLD2/S 0.27358f
+C1045 XBP/G ua[0] 0.07881f
+C1046 XSCT2_8/D ua[2] 1.60975f
+C1047 XSCT2_8/D XSCT2_9/D 1.3637f
+C1048 XSCT2_8/D ua[4] 0.1918f
+C1049 XSCT2_8/D XI2bP/D 0.01184f
+C1050 XSCT2_8/D ua[3] 0.91362f
+C1051 XSCT2_8/D XA1/G 2.80178f
+C1052 XSCT2_8/D XSCT2_5/D 0.07088f
+C1053 XSCT2_8/D ua[0] 9.27559f
+C1054 XI2bP/G XI2bP/D 0.58131f
+C1055 XI2bP/G XI1bP/G 0.56847f
+C1056 XI2bP/G XNDAbN2/D 0.0086f
+C1057 XI2aP/G XI1bP/G 0.01878f
+C1058 XI2aP/G XA1/G 0
+C1059 ua[2] XSCT2_9/D 3.05463f
+C1060 ua[2] XMR4/D 73.77957f
+C1061 ua[2] XMR3/D 7.25237f
+C1062 ua[2] XMREP/G 0.09278f
+C1063 ua[2] ua[4] 8.38831f
+C1064 ua[2] XPB/D 0
+C1065 ua[2] XI2bP/D 0.00935f
+C1066 ua[2] ua[3] 14.71249f
+C1067 ua[2] XA1/G 12.86557f
+C1068 ua[2] uio_in[3] 0.00212f
+C1069 ua[2] XSWF4/G 0.48833f
+C1070 ua[2] XA2/G 0.00407f
+C1071 ua[2] XLD2/S 0.00414f
+C1072 ua[2] XSCT2_5/D 0.11276f
+C1073 ua[2] ua[0] 67.11148f
+C1074 XPB/G XMREP/G 0.17339f
+C1075 XPB/G ua[4] 0.71192f
+C1076 XPB/G XPB/D 0.4597f
+C1077 XPB/G XI2bP/D 0.08029f
+C1078 XPB/G XA1/G 0.1854f
+C1079 XPB/G XA2/G 0.1286f
+C1080 XPB/G XLD2/S 0.03699f
+C1081 XSCT2_9/D ua[4] 0.19706f
+C1082 XSCT2_9/D XI2bP/D 0.00813f
+C1083 XSCT2_9/D ua[3] 3.19706f
+C1084 XSCT2_9/D XA1/G 5.06274f
+C1085 XSCT2_9/D XSCT2_5/D 1.44249f
+C1086 XSCT2_9/D XSCT2_4/D 0.00205f
+C1087 XSCT2_9/D ua[0] 22.00622f
+C1088 XMR4/D XMR3/D 0.77035p
+C1089 XMR4/D XMREP/G 19.44876f
+C1090 XMR4/D ua[4] 1.00458f
+C1091 XMR4/D XPB/D 0.90018f
+C1092 XMR4/D XI2bP/D 0.04253f
+C1093 XMR4/D ua[3] 11.17097f
+C1094 XMR4/D XA1/G 26.21705f
+C1095 XMR4/D uio_in[3] 0
+C1096 XMR4/D XSWF4/G 0.05354f
+C1097 XMR4/D XA2/G 0.01934f
+C1098 XMR4/D XLD2/S 0.01934f
+C1099 XMR4/D ua[0] 0.00858f
+C1100 XMR3/D XMREP/G 20.13328f
+C1101 XMR3/D ua[3] 60.66441f
+C1102 XMR3/D XA1/G 26.11357f
+C1103 XMR3/D uio_in[3] 0.07011f
+C1104 XMR3/D XSWF4/G 0.0724f
+C1105 XMR3/D ua[0] 2.79418f
+C1106 XMREP/G ua[4] 2.42717f
+C1107 XMREP/G XPB/D 0.67231f
+C1108 XMREP/G XI2bP/D 0.08056f
+C1109 XMREP/G ua[3] 0.78038f
+C1110 XMREP/G XA1/G 0.10023p
+C1111 XMREP/G uio_in[3] 0.96161f
+C1112 XMREP/G XSWF4/G 0
+C1113 XMREP/G XA2/G 0.13046f
+C1114 XMREP/G XLD2/S 0.00117f
+C1115 ua[4] XPB/D 0.44039p
+C1116 ua[4] XI2bP/D 14.61844f
+C1117 ua[4] ua[3] 0.88109f
+C1118 ua[4] XA1/G 32.95258f
+C1119 ua[4] XA2/G 0.03584f
+C1120 ua[4] XLD2/S 0.34884f
+C1121 ua[4] XSCT2_5/D 0.15287f
+C1122 ua[4] ua[0] 5.51432f
+C1123 XPB/D XI2bP/D 1.63296f
+C1124 XPB/D XNDAbN2/D 0
+C1125 XPB/D ua[3] 0
+C1126 XPB/D XA1/G 4.11258f
+C1127 XPB/D XA2/G 0.36354f
+C1128 XPB/D XLD2/S 0.0024f
+C1129 XPB/D ua[0] 0.00125f
+C1130 XI2bP/D XI1bP/G 0.17047f
+C1131 XI2bP/D ua[3] 0
+C1132 XI2bP/D XA1/G 1.84386f
+C1133 XI2bP/D XA2/G 0.00146f
+C1134 XI2bP/D XLD2/S 0.1049f
+C1135 XI2bP/D XSCT2_5/D 2.76306f
+C1136 XI2bP/D XSCT2_0/D 0.03199f
+C1137 XI2bP/D XSCT2_1/D 0.05765f
+C1138 XI2bP/D XSCT2_4/D 0.20497f
+C1139 XI2bP/D ua[0] 0.00207f
+C1140 XI1bP/G XNDAbN2/D 0.27811f
+C1141 XNDAbN2/D XA2/G 0.02457f
+C1142 XSCT1_2/D XSCT1_3/D 0.25362f
+C1143 XSCT1_2/D XSCT1_5/D 0.00128f
+C1144 XSCT1_2/D XSCT1_1/D 0.08147f
+C1145 XSCT1_2/D XSCT1_4/D 0.04313f
+C1146 XSCT1_2/D ua[0] 3.11971f
+C1147 XSCT1_3/D ua[3] 0.00123f
+C1148 XSCT1_3/D XSCT1_5/D 0.00159f
+C1149 XSCT1_3/D XSCT1_0/D 0.19544f
+C1150 XSCT1_3/D XSCT1_1/D 0.28484f
+C1151 XSCT1_3/D XSCT1_4/D 0.09758f
+C1152 XSCT1_3/D ua[0] 6.16807f
+C1153 ua[3] XA1/G 15.19441f
+C1154 ua[3] uio_in[3] 0.01528f
+C1155 ua[3] XSWF4/G 0.41901f
+C1156 ua[3] XSCT1_5/D 0
+C1157 ua[3] XSCT2_5/D 0.00728f
+C1158 ua[3] XSCT2_0/D 0.30204f
+C1159 ua[3] XSCT2_1/D 0.16624f
+C1160 ua[3] XSCT1_0/D 0.00133f
+C1161 ua[3] XSCT1_1/D 0
+C1162 ua[3] ua[0] 0.10522p
+C1163 XA1/G uio_in[3] 1.04133f
+C1164 XA1/G XSWF4/G 1.27399f
+C1165 XA1/G XA2/G 0.01028f
+C1166 XA1/G XLD2/S 0
+C1167 XA1/G XSCT2_5/D 0.00944f
+C1168 XA1/G XSCT2_0/D 0.00211f
+C1169 XA1/G XSCT2_1/D 0.00466f
+C1170 XA1/G ua[0] 89.08286f
+C1171 uio_in[3] XSWF4/G 0.90538f
+C1172 XA2/G XLD2/S 2.34246f
+C1173 XSCT1_5/D XSCT1_0/D 0.00932f
+C1174 XSCT1_5/D XSCT1_1/D 0.00126f
+C1175 XSCT1_5/D XSCT1_4/D 0.11384f
+C1176 XSCT1_5/D ua[0] 7.1009f
+C1177 XSCT2_5/D XSCT2_0/D 0.00205f
+C1178 XSCT2_5/D XSCT2_1/D 0
+C1179 XSCT2_5/D XSCT2_4/D 0.04478f
+C1180 XSCT2_0/D XSCT2_1/D 1.92199f
+C1181 XSCT2_0/D ua[0] 0.3279f
+C1182 XSCT2_1/D ua[0] 0.48187f
+C1183 XSCT1_0/D XSCT1_1/D 0.28215f
+C1184 XSCT1_0/D ua[0] 1.1447f
+C1185 XSCT1_1/D ua[0] 1.57424f
+C1186 XSCT1_4/D ua[0] 4.21433f
+C1187 ua[0] ua[7] 0.00146f
+C1188 ua[0] ua[6] 0.00146f
+C1189 uio_in[7] uio_in[6] 0.03103f
+C1190 ua[6] XMCLb/B 0.12812f
+C1191 ua[7] XMCLb/B 0.12812f
+C1192 ena XMCLb/B 0.065f
+C1193 rst_n XMCLb/B 0.04118f
+C1194 uio_in[6] XMCLb/B 0.04118f
+C1195 uio_in[7] XMCLb/B 0.07221f
+C1196 ua[0] XMCLb/B 0.445p
+C1197 XSCT1_4/D XMCLb/B 7.01946f
+C1198 XSCT1_1/D XMCLb/B 3.66004f
+C1199 XSCT1_0/D XMCLb/B 2.26776f
+C1200 XSCT2_4/D XMCLb/B 11.03982f
+C1201 XSCT2_1/D XMCLb/B 6.1091f
+C1202 XSCT2_0/D XMCLb/B 3.45652f
+C1203 XSCT2_5/D XMCLb/B 19.65746f
+C1204 XLD2/S XMCLb/B 3.5091f
+C1205 XSCT1_5/D XMCLb/B 15.9254f
+C1206 XA2/G XMCLb/B 6.34664f
+C1207 XSWF4/G XMCLb/B 4.37199f
+C1208 uio_in[3] XMCLb/B 1.71519f
+C1209 XA1/G XMCLb/B 0.18224p
+C1210 ua[3] XMCLb/B 29.40232f
+C1211 XSCT1_3/D XMCLb/B 11.26847f
+C1212 XSCT1_2/D XMCLb/B 6.54682f
+C1213 XNDAbN2/D XMCLb/B 1.72548f
+C1214 XI1bP/G XMCLb/B 4.36272f
+C1215 XI2bP/D XMCLb/B 0.27741p
+C1216 XPB/D XMCLb/B 28.09235f
+C1217 ua[4] XMCLb/B 0.10972p
+C1218 XMREP/G XMCLb/B 37.64369f
+C1219 XMR3/D XMCLb/B 0.28777p
+C1220 XMR4/D XMCLb/B 0.27537p
+C1221 XSCT2_9/D XMCLb/B 21.22516f
+C1222 XPB/G XMCLb/B 5.91667f
+C1223 ua[2] XMCLb/B 45.23092f
+C1224 XI2aP/G XMCLb/B 3.10993f
+C1225 XI2bP/G XMCLb/B 3.44242f
+C1226 XSCT2_8/D XMCLb/B 13.43868f
+C1227 XBP/G XMCLb/B 42.82428f
+C1228 uio_in[1] XMCLb/B 9.03291f
+C1229 XS2/G XMCLb/B 29.97279f
+C1230 XSCT2_7/D XMCLb/B 8.17477f
+C1231 uio_in[0] XMCLb/B 6.35527f
+C1232 XRP2/G XMCLb/B 18.70657f
+C1233 XRP1/D XMCLb/B 55.52103f
+C1234 XSCT1_9/D XMCLb/B 15.71569f
+C1235 XSCT2_6/D XMCLb/B 5.53572f
+C1236 ui_in[7] XMCLb/B 2.11021f
+C1237 uio_in[2] XMCLb/B 3.89334f
+C1238 ui_in[6] XMCLb/B 7.20134f
+C1239 XNDAaN2/D XMCLb/B 1.68376f
+C1240 XI1aP/G XMCLb/B 3.40123f
+C1241 ua[5] XMCLb/B 1.33878p
+C1242 XI2aP/D XMCLb/B 0.28988p
+C1243 ui_in[5] XMCLb/B 3.35555f
+C1244 XSCT2_3/D XMCLb/B 18.30886f
+C1245 XRR2/R2_3 XMCLb/B 0.58606f
+C1246 XRR2/R1_2 XMCLb/B 0.87643f
+C1247 XRR2/R2_1 XMCLb/B 0.57107f
+C1248 ui_in[4] XMCLb/B 8.3898f
+C1249 XSCT2_2/D XMCLb/B 11.92963f
+C1250 XRS2/D XMCLb/B 7.85615f
+C1251 XRR1/R2_1 XMCLb/B 0.75976f
+C1252 XRS1/D XMCLb/B 9.94515f
+C1253 uio_in[5] XMCLb/B 2.97992f
+C1254 ui_in[3] XMCLb/B 7.747f
+C1255 XRR0/R2_15 XMCLb/B 0.64307f
+C1256 XRR0/R1_14 XMCLb/B 0.53085f
+C1257 XRR0/R2_13 XMCLb/B 0.45759f
+C1258 XRR0/R1_12 XMCLb/B 0.56199f
+C1259 XRR0/R2_11 XMCLb/B 0.39294f
+C1260 XRR0/R1_9 XMCLb/B 0.54268f
+C1261 XRR0/R2_9 XMCLb/B 0.38638f
+C1262 XRR0/R1_8 XMCLb/B 0.53758f
+C1263 XRR0/R2_7 XMCLb/B 0.38275f
+C1264 XRR0/R1_6 XMCLb/B 0.53426f
+C1265 XRR0/R2_5 XMCLb/B 0.38067f
+C1266 XRR0/R1_4 XMCLb/B 0.5277f
+C1267 XRR0/R2_3 XMCLb/B 0.37933f
+C1268 XRR0/R1_2 XMCLb/B 0.53003f
+C1269 XRR0/R2_1 XMCLb/B 0.56262f
+C1270 XRN2/S7 XMCLb/B 10.59585f
+C1271 uio_in[4] XMCLb/B 7.51303f
+C1272 ui_in[2] XMCLb/B 12.85998f
+C1273 ui_in[1] XMCLb/B 0.78845f
+C1274 ua[1] XMCLb/B 0.42856p
+C1275 XSWB2/D XMCLb/B 0.997p
+C1276 XIKCP/D XMCLb/B 6.39617f
+C1277 clk XMCLb/B 3.51924f
+C1278 ui_in[0] XMCLb/B 5.81504f
+C1279 XMRB13/S XMCLb/B 14.40858f
+C1280 XS1/D XMCLb/B 3.18922f
+C1281 XRML/D XMCLb/B 18.77139f
+C1282 XMRB12/S XMCLb/B 21.92652f
+C1283 XMRB23/S XMCLb/B 13.40753f
+C1284 XSWB1/D XMCLb/B 0.99338p
+C1285 XMRB22/S XMCLb/B 14.11062f
+C1286 XMRB11/S XMCLb/B 19.19378f
+C1287 XLD6/S XMCLb/B 5.41826f
+C1288 XMRB21/S XMCLb/B 14.53969f
+C1289 XLD5/S XMCLb/B 3.54957f
+C1290 XSCT1_8/D XMCLb/B 9.61065f
+C1291 XLD4/S XMCLb/B 3.90751f
+C1292 XSCT1_7/D XMCLb/B 4.95569f
+C1293 XLD3/S XMCLb/B 3.24179f
+C1294 XSCT1_6/D XMCLb/B 3.38065f
+C1295 VDPWR XMCLb/B 59.19984f
