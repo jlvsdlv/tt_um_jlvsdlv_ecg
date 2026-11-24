@@ -1,0 +1,76 @@
+
+Magic 8.3 revision 706 - Compiled on Fri Nov 20 21:22:26 PST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=20000]
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "a.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: tt_um_jlvsdlv_ecg
+Reading "tt_um_jlvsdlv_ecg_XP1".
+Reading "tt_um_jlvsdlv_ecg_XP1B".
+Reading "tt_um_jlvsdlv_ecg_C245".
+Reading "tt_um_jlvsdlv_ecg_C30".
+Reading "tt_um_jlvsdlv_ecg_VAR9G".
+Reading "tt_um_jlvsdlv_ecg_C173".
+Reading "tt_um_jlvsdlv_ecg_C122".
+Reading "tt_um_jlvsdlv_ecg_C205".
+Reading "tt_um_jlvsdlv_ecg_VB0G".
+Reading "tt_um_jlvsdlv_ecg_VB1G".
+Reading "tt_um_jlvsdlv_ecg_VB3G".
+Reading "tt_um_jlvsdlv_ecg_N1L05".
+Reading "tt_um_jlvsdlv_ecg_VB5G".
+Reading "tt_um_jlvsdlv_ecg_VB4G".
+Reading "tt_um_jlvsdlv_ecg_VB2G".
+Reading "tt_um_jlvsdlv_ecg_RXB".
+Reading "tt_um_jlvsdlv_ecg_RXC".
+Reading "tt_um_jlvsdlv_ecg_RXA".
+Reading "tt_um_jlvsdlv_ecg_N2L05".
+Reading "tt_um_jlvsdlv_ecg_M34S".
+Reading "tt_um_jlvsdlv_ecg_MB2Q".
+Reading "tt_um_jlvsdlv_ecg_C236".
+Reading "tt_um_jlvsdlv_ecg_NL2L8x8".
+Reading "tt_um_jlvsdlv_ecg_NL042L1".
+Reading "tt_um_jlvsdlv_ecg_N042L1".
+Reading "tt_um_jlvsdlv_ecg_NL2L8".
+Reading "tt_um_jlvsdlv_ecg_NL2L8x5".
+Reading "tt_um_jlvsdlv_ecg_P042L4".
+Reading "tt_um_jlvsdlv_ecg_PL4L8".
+Reading "tt_um_jlvsdlv_ecg_MREP".
+Reading "tt_um_jlvsdlv_ecg_MRB".
+Reading "tt_um_jlvsdlv_ecg_MB1".
+Reading "tt_um_jlvsdlv_ecg_N05L05".
+Reading "tt_um_jlvsdlv_ecg_MLAD".
+Reading "tt_um_jlvsdlv_ecg_NL2L4".
+Reading "tt_um_jlvsdlv_ecg_NL2L8x4".
+Reading "tt_um_jlvsdlv_ecg_PL4L2".
+Reading "tt_um_jlvsdlv_ecg_PL2L2".
+Reading "tt_um_jlvsdlv_ecg_MSWP".
+Reading "tt_um_jlvsdlv_ecg_P1L05".
+Reading "tt_um_jlvsdlv_ecg_P4L05".
+Reading "tt_um_jlvsdlv_ecg_P2L05".
+Reading "tt_um_jlvsdlv_ecg_C7".
+Reading "tt_um_jlvsdlv_ecg_MIRB".
+Reading "tt_um_jlvsdlv_ecg".
+Extracting aflat into aflat.ext:
+Processing aflat
+aflat: 4 warnings
+Total of 4 warnings.
+Reading extract file.
+Building flattened netlist.
+Running antenna checks.
+antennacheck finished.
+ANTDONE

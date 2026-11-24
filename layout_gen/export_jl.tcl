@@ -11,6 +11,31 @@ file mkdir outj/mag outj/gds outj/lef
 foreach c $subs { catch {cellname rename $c ${T}_$c} }
 cellname rename $T0 $T
 load $T
+# antenna diodes (b4, it0)
+box 288.500um 27.300um 289.100um 27.900um
+paint ndiode
+box 288.715um 27.515um 288.885um 27.685um
+paint ndiodec
+box 288.600um 27.400um 289.000um 27.800um
+paint locali
+box 288.715um 27.515um 288.885um 27.685um
+paint viali
+box 288.600um 27.400um 289.000um 27.800um
+paint metal1
+box 286.650um 27.450um 288.950um 27.750um
+paint metal1
+box 303.500um 109.700um 304.100um 110.300um
+paint ndiode
+box 303.715um 109.915um 303.885um 110.085um
+paint ndiodec
+box 303.600um 109.800um 304.000um 110.200um
+paint locali
+box 303.715um 109.915um 303.885um 110.085um
+paint viali
+box 303.600um 109.800um 304.000um 110.200um
+paint metal1
+box 301.050um 109.850um 303.950um 110.150um
+paint metal1
 cd outj/mag
 foreach c $subs { catch {load ${T}_$c; save ${T}_$c} }
 load $T
