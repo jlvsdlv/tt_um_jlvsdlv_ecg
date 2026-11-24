@@ -45,12 +45,16 @@ Flattening unmatched subcell tt_um_jlvsdlv_ecg_C236 in circuit tt_um_jlvsdlv_ecg
 
 Cell tt_um_jlvsdlv_ecg disconnected node: ena
 Cell tt_um_jlvsdlv_ecg disconnected node: rst_n
+Cell tt_um_jlvsdlv_ecg disconnected node: ua[6]
+Cell tt_um_jlvsdlv_ecg disconnected node: ua[7]
 Cell tt_um_jlvsdlv_ecg disconnected node: uio_in[6]
 Cell tt_um_jlvsdlv_ecg disconnected node: uio_in[7]
 Class tt_um_jlvsdlv_ecg:  Merged 435 devices.
 
 Cell tt_um_jlvsdlv_ecg disconnected node: ena
 Cell tt_um_jlvsdlv_ecg disconnected node: rst_n
+Cell tt_um_jlvsdlv_ecg disconnected node: ua[6]
+Cell tt_um_jlvsdlv_ecg disconnected node: ua[7]
 Cell tt_um_jlvsdlv_ecg disconnected node: uio_in[6]
 Cell tt_um_jlvsdlv_ecg disconnected node: uio_in[7]
 

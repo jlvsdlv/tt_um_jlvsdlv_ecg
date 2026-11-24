@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-// Analog blackbox; layout in gds/ and lef/. uo_out, uio_out, uio_oe and ua[7:6] are tied to VGND.
+// Analog blackbox; layout in gds/ and lef/. uo_out, uio_out and uio_oe are tied to VGND; ua[7:6] are left unconnected.
 // ua[0] VIN1, ua[1] VIN2, ua[2] VOUT1, ua[3] VOUT2, ua[4] DRL, ua[5] VDD_A (1.0 V)
 module tt_um_jlvsdlv_ecg (
     input  wire       VGND,

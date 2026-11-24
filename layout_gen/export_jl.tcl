@@ -11,10 +11,6 @@ file mkdir outj/mag outj/gds outj/lef
 foreach c $subs { catch {cellname rename $c ${T}_$c} }
 cellname rename $T0 $T
 load $T
-box 4.5um 0.5um 36.79um 2.5um
-paint metal4
-box 4.5um 0.5um 6.5um 5.2um
-paint metal4
 cd outj/mag
 foreach c $subs { catch {load ${T}_$c; save ${T}_$c} }
 load $T
