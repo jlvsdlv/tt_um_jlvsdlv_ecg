@@ -288,7 +288,7 @@ wire_fet("PL2L2", "XBP", 234.0, 166.0, d="nd", g="nb", s="vdd", b="vdd")
 wire_fet("PL4L2", "XPA", 241.0, 166.0, d="xa", g="xa", s="vdd", b="vdd"); wire_fet("PL4L2", "XPB", 248.0, 166.0, d="x", g="xa", s="vdd", b="vdd")
 wire_fet("PL4L2", "XP2", 255.0, 166.0, d="drl", g="x", s="vdd", b="vdd")
 for nm, c, x, dn, gn, sn in (("XBN", "NL2L8", 157.0, "nd", "nd", "VGND"), ("XS1", "NL2L8", 170.0, "s1", "nd", "VGND"), ("XA1", "NL2L4", 183.0, "xa", "tail", "s1"),
-                             ("XA2", "NL2L4", 192.0, "x", "r1", "s1"), ("XS2", "NL2L8x4", 201.0, "drl", "nd", "VGND"), ("XIRBM", "MIRB", 262.0, "vgr", "nd", "VGND")):
+                             ("XA2", "NL2L4", 192.0, "x", "r1", "s1"), ("XS2", "NL2L8x4", 201.0, "drl", "nd", "VGND"), ("XIRBM", "MIRB", 262.0, "vgr", "nd", "VGND"), ("XS2B", "NL2L8x4", 283.0, "drl", "nd", "VGND")):
     wire_fet(c, nm, x, 176.6, d=dn, g=gn, s=sn, b="VGND")
 # ---------------- well bias (replica pseudo-R), feedback pseudo-R, reset switches (above the DNW)
 wire_fet("MREP", "XMREP", 12.0, 176.4, d="vgr", g="vgr", s="tail", b="tail")

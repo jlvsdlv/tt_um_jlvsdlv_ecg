@@ -11,10 +11,10 @@ Flattening unmatched subcell tt_um_jlvsdlv_ecg_XP1 in circuit tt_um_jlvsdlv_ecg 
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_P042L4 in circuit tt_um_jlvsdlv_ecg (0)(3 instances)
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_MB2Q in circuit tt_um_jlvsdlv_ecg (0)(4 instances)
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_NL042L1 in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_NL2L8x4 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_NL2L8 in circuit tt_um_jlvsdlv_ecg (0)(3 instances)
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_VAR9G in circuit tt_um_jlvsdlv_ecg (0)(6 instances)
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_XP1B in circuit tt_um_jlvsdlv_ecg (0)(8 instances)
-Flattening unmatched subcell tt_um_jlvsdlv_ecg_NL2L8x4 in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_N042L1 in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_M34S in circuit tt_um_jlvsdlv_ecg (0)(8 instances)
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_N1L05 in circuit tt_um_jlvsdlv_ecg (0)(28 instances)
@@ -49,7 +49,7 @@ Cell tt_um_jlvsdlv_ecg disconnected node: ua[6]
 Cell tt_um_jlvsdlv_ecg disconnected node: ua[7]
 Cell tt_um_jlvsdlv_ecg disconnected node: uio_in[6]
 Cell tt_um_jlvsdlv_ecg disconnected node: uio_in[7]
-Class tt_um_jlvsdlv_ecg:  Merged 435 devices.
+Class tt_um_jlvsdlv_ecg:  Merged 439 devices.
 
 Cell tt_um_jlvsdlv_ecg disconnected node: ena
 Cell tt_um_jlvsdlv_ecg disconnected node: rst_n
@@ -68,8 +68,8 @@ sky130_fd_pr__pfet_01v8_lvt (21)           |sky130_fd_pr__pfet_01v8_lvt (21)
 sky130_fd_pr__nfet_01v8_lvt (14)           |sky130_fd_pr__nfet_01v8_lvt (14)           
 sky130_fd_pr__cap_var_lvt (14)             |sky130_fd_pr__cap_var_lvt (14)             
 sky130_fd_pr__res_xhigh_po_0p35 (3)        |sky130_fd_pr__res_xhigh_po_0p35 (3)        
-sky130_fd_pr__diode_pw2nd_05v5 (3)         |sky130_fd_pr__diode_pw2nd_05v5 (3)         
-Number of devices: 132                     |Number of devices: 132                     
+sky130_fd_pr__diode_pw2nd_05v5 (4)         |sky130_fd_pr__diode_pw2nd_05v5 (4)         
+Number of devices: 133                     |Number of devices: 133                     
 Number of nets: 84                         |Number of nets: 84                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
@@ -83,6 +83,7 @@ ua[5]                                      |ua[5]
 ua[3]                                      |ua[3]                                      
 ua[2]                                      |ua[2]                                      
 VGND                                       |VGND                                       
+uio_in[1]                                  |uio_in[1]                                  
 ui_in[4]                                   |ui_in[4]                                   
 ui_in[5]                                   |ui_in[5]                                   
 ua[4]                                      |ua[4]                                      
@@ -94,7 +95,6 @@ VDPWR                                      |VDPWR
 ui_in[6]                                   |ui_in[6]                                   
 ui_in[7]                                   |ui_in[7]                                   
 uio_in[0]                                  |uio_in[0]                                  
-uio_in[1]                                  |uio_in[1]                                  
 ui_in[0]                                   |ui_in[0]                                   
 ui_in[1]                                   |ui_in[1]                                   
 ui_in[2]                                   |ui_in[2]                                   

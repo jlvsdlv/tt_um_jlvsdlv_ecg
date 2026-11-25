@@ -93,9 +93,21 @@ def vfree(li, n, net):
 OCC = collections.defaultdict(set)     # (li,n) -> nets using it (dynamic)
 HIST = collections.defaultdict(float)
 PF = [0.5]
+NOISY = {"drva", "drvb", "clk", "clkb", "x1a", "x1b", "x2a", "x2b", "rstb", "rst", "en"}
+QUIET = {"vi1", "vi2", "nw1", "nw2", "g3", "g4", "vgr"}
 def ncost(li, n, net):
     o = OCC.get((li, n)); k = len(o - {net}) if o else 0
-    return (1.0 + HIST[(li, n)]) * (1.0 + PF[0] * k)
+    c = (1.0 + HIST[(li, n)]) * (1.0 + PF[0] * k)
+    if net in NOISY or net in QUIET:           # penalize noisy/quiet adjacency (same layer +-2 nodes, adjacent layers same node)
+        other = QUIET if net in NOISY else NOISY; i, j = n
+        for lj in (li - 1, li, li + 1):
+            if not 0 <= lj < 3: continue
+            for di in range(-2, 3):
+                for dj in range(-2, 3):
+                    if lj != li and (di or dj): continue
+                    s_ = OCC.get((lj, (i + di, j + dj)))
+                    if s_ and (s_ & other): c += 6.0
+    return c
 def astar(net, starts, goal):
     gli, (gi, gj) = goal
     def h(s): return abs(s[1][0] - gi) + abs(s[1][1] - gj) + (2.0 if s[0] != gli else 0)

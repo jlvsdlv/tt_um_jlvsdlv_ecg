@@ -67,8 +67,8 @@ Reading "tt_um_jlvsdlv_ecg_MIRB".
 Reading "tt_um_jlvsdlv_ecg".
 Extracting aflat into aflat.ext:
 Processing aflat
-aflat: 5 warnings
-Total of 5 warnings.
+aflat: 6 warnings
+Total of 6 warnings.
 Reading extract file.
 Building flattened netlist.
 Running antenna checks.

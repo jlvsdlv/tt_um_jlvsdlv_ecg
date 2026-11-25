@@ -30,7 +30,7 @@ The rest of the design:
 3. Hold **`RST` high for at least 20 ms** after power-up and after any saturation. Release it on the ECG baseline.
 4. Set **`EN` = 1** and apply a **2 kHz clock** on `clk`.
 5. Trim once per board:
-   - Set `IT[1:0]` so the total current from `ua[5]` is **at least 0.9 µA** (about 1 µA nominal); below that the bias-electrode driver can lose control at mains peaks at cold/slow corners. In increasing current: `IT` = 00, 01, 10, 11 (reference resistor 1.15×, 1.05×, 0.95×, 0.85×).
+   - Set `IT[1:0]` for about 1 µA total from `ua[5]` (the default `IT` = 01 works at all simulated corners). In increasing current: `IT` = 00, 01, 10, 11 (reference resistor 1.15×, 1.05×, 0.95×, 0.85×).
    - Find `CT[9:0]` by maximizing the gain measured through a 500 MΩ ∥ 22 pF source, using a **full search over all 1024 codes**, not a binary search. Per side, bits 0–5 weigh ≈ 11·2<sup>k</sup> fF and bits 6–9 ≈ 0.31, 0.61, 1.22 and 2.44 pF, so code 64 is *smaller* than code 63, but every value from 0 to 5.3 pF is reachable. Simulation puts the optimum between 1.5 and 3.5 pF.
 6. Read the differential output `ua[2]` − `ua[3]`.
 
@@ -38,7 +38,7 @@ Notes from simulating the extracted layout:
 
 - **Start-up:** the on-chip reference starts within ~0.1 ms of power-up and the bias settles within ~5 ms, well inside the reset time.
 - **p-well islands after power-up:** the supply ramp kicks the two switched p-wells to about +0.3 V, and they relax back toward 0 V only slowly (seconds). Gain is unaffected.
-- **2 kHz switching ripple:** ≈ 170 µV at the output (≈ 3.5 µV input-referred), mostly from a 1.2 fF coupling between the switching driver and `ua[1]` in the routing. It is above the ECG band and is filtered by the output pole and any anti-alias filter.
+- **2 kHz switching ripple:** up to ≈ 350 µV at the output (≈ 7 µV input-referred) at cold/slow corners. It is above the ECG band and is removed by the output pole and any anti-alias or digital filter.
 
 Simulated performance over 5 process corners and 0–60 °C (post-layout, extracted capacitance back-annotated, TinyTapeout 500 Ω / 5 pF pin path included):
 

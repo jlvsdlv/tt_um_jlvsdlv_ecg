@@ -12,7 +12,7 @@ from amp import dev, load_wrdata
 PL, NL = "sky130_fd_pr__pfet_01v8_lvt", "sky130_fd_pr__nfet_01v8_lvt"
 LAD, CEXT = (2, 2, 1), 100e-9
 NLAD = 7
-MODE = dict(fast=True, cc=10e-12, i2m=4)   # fast=True: active DRL (no C_ext, Miller Cc, class-A stage 2 at i2m x 5 nA)
+MODE = dict(fast=True, cc=10e-12, i2m=8)   # fast=True: active DRL (no C_ext, Miller Cc, class-A stage 2 at i2m x 5 nA)
 def driver(p):
     s = ""
     nodes = ["vdd"] + [f"r{i}" for i in range(1, NLAD)] + ["vss"]

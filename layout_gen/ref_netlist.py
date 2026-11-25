@@ -61,7 +61,7 @@ m("BP", "nd", "nb", "vdd", "vdd", PL, 2, 2); m("BN", "nd", "nd", "VGND", "VGND",
 m("S1", "s1", "nd", "VGND", "VGND", NL, 2, 8)
 m("A1", "xa", "tail", "s1", "VGND", NL, 2, 4); m("A2", "x", "r1", "s1", "VGND", NL, 2, 4)
 m("PA", "xa", "xa", "vdd", "vdd", PL, 4, 2); m("PB", "x", "xa", "vdd", "vdd", PL, 4, 2)
-m("P2", "drl", "x", "vdd", "vdd", PL, 4, 2); m("S2", "drl", "nd", "VGND", "VGND", NL, 2, 8, 4)
+m("P2", "drl", "x", "vdd", "vdd", PL, 4, 2); m("S2", "drl", "nd", "VGND", "VGND", NL, 2, 8, 8)   # 40 nA sink (2 x 4-unit cells)
 cap("CCM", "x", "drl", 30, 30, 5)                                                     # ~9-10 pF Miller
 # ---------------- bias reference (replaces external IB): beta multiplier + 2-bit R trim + start-up
 m("RN1", "n1", "n1", "VGND", "VGND", NL, 2, 8); m("RN2", "n2", "n1", "rs", "VGND", NL, 2, 8, 8)

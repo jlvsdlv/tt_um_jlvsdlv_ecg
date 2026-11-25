@@ -89,7 +89,7 @@ XA2 x r1 s1 VGND sky130_fd_pr__nfet_01v8_lvt W=2 L=4 m=1
 XPA xa xa ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt W=4 L=2 m=1
 XPB x xa ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt W=4 L=2 m=1
 XP2 ua[4] x ua[5] ua[5] sky130_fd_pr__pfet_01v8_lvt W=4 L=2 m=1
-XS2 ua[4] nd VGND VGND sky130_fd_pr__nfet_01v8_lvt W=2 L=8 m=4
+XS2 ua[4] nd VGND VGND sky130_fd_pr__nfet_01v8_lvt W=2 L=8 m=8
 XCCM x ua[4] sky130_fd_pr__cap_mim_m3_1 W=30 L=30 m=5
 XRN1 n1 n1 VGND VGND sky130_fd_pr__nfet_01v8_lvt W=2 L=8 m=1
 XRN2 n2 n1 rs VGND sky130_fd_pr__nfet_01v8_lvt W=2 L=8 m=8
@@ -148,8 +148,9 @@ XCCB drvb vbnb sky130_fd_pr__cap_mim_m3_1 W=30 L=30 m=3
 XMCLb VGND VGND VGND vbnb sky130_fd_pr__nfet_01v8 W=2 L=0.5 m=1
 XRS1 rt1 uio_in[4] rt2 VGND sky130_fd_pr__nfet_01v8 W=1 L=0.5 m=1
 XRS2 rt2 uio_in[5] VGND VGND sky130_fd_pr__nfet_01v8 W=1 L=0.5 m=1
-* antenna diodes on the long digital trim lines (b4 = ui_in[4], b5 = ui_in[5], it0 = uio_in[4])
+* antenna diodes on the long digital trim lines (b4 = ui_in[4], b5 = ui_in[5], it0 = uio_in[4], b9 = uio_in[1])
 XDANT1 VGND ui_in[4] sky130_fd_pr__diode_pw2nd_05v5 area=3.6e+11 perim=2.4e+06
 XDANT3 VGND ui_in[5] sky130_fd_pr__diode_pw2nd_05v5 area=3.6e+11 perim=2.4e+06
+XDANT4 VGND uio_in[1] sky130_fd_pr__diode_pw2nd_05v5 area=3.6e+11 perim=2.4e+06
 XDANT2 VGND uio_in[4] sky130_fd_pr__diode_pw2nd_05v5 area=3.6e+11 perim=2.4e+06
 .ends tt_um_jlvsdlv_ecg

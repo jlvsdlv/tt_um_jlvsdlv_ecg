@@ -106,6 +106,13 @@ X49 S35 G D34 B sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 
 X0 S G D B sky130_fd_pr__nfet_01v8_lvt ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=1
 .ends
 
+.subckt tt_um_jlvsdlv_ecg_NL2L8x4 G a_3287_n231# B D2 D0 S3 S1
+X0 a_3287_n231# G S3 B sky130_fd_pr__nfet_01v8_lvt ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=8
+X1 S1 G D0 B sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=8
+X2 D2 G S1 B sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
+X3 S3 G D2 B sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
+.ends
+
 .subckt tt_um_jlvsdlv_ecg_NL2L8 G D B S
 X0 S G D B sky130_fd_pr__nfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=8
 .ends
@@ -130,13 +137,6 @@ X0 S1 G D0 B sky130_fd_pr__pfet_01v8_lvt ad=3.625 pd=25.29 as=7.25 ps=50.58 w=25
 X1 S3 G D2 B sky130_fd_pr__pfet_01v8_lvt ad=3.625 pd=25.29 as=3.625 ps=25.29 w=25 l=8
 X2 a_3287_n2464# G S3 B sky130_fd_pr__pfet_01v8_lvt ad=7.25 pd=50.58 as=3.625 ps=25.29 w=25 l=8
 X3 D2 G S1 B sky130_fd_pr__pfet_01v8_lvt ad=3.625 pd=25.29 as=3.625 ps=25.29 w=25 l=8
-.ends
-
-.subckt tt_um_jlvsdlv_ecg_NL2L8x4 G a_3287_n231# B D2 D0 S3 S1
-X0 a_3287_n231# G S3 B sky130_fd_pr__nfet_01v8_lvt ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=8
-X1 S1 G D0 B sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=8
-X2 D2 G S1 B sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
-X3 S3 G D2 B sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
 .ends
 
 .subckt tt_um_jlvsdlv_ecg_N042L1 G D B S
@@ -390,6 +390,7 @@ XXMB2_1 ua[5] XA1/G XA1/G ua[5] XA1/G ua[5] XA1/G XA1/G ua[5] XA1/G ua[5] XBP/G 
 + XA1/G XA1/G XA1/G XA1/G XA1/G ua[5] ua[5] XA1/G XA1/G ua[5] XA1/G XA1/G XA1/G XA1/G
 + XA1/G ua[5] XA1/G XA1/G XA1/G XA1/G ua[5] ua[5] ua[5] XA1/G ua[5] XA1/G tt_um_jlvsdlv_ecg_MB2Q
 XXCBM1_1 XSWB1/D ua[0] tt_um_jlvsdlv_ecg_C30
+XXS2B XS2/G ua[4] VGND ua[4] ua[4] VGND VGND tt_um_jlvsdlv_ecg_NL2L8x4
 XXM1_1U ua[0] XSWB1/D ua[3] ua[3] ua[3] XA1/G XA1/G tt_um_jlvsdlv_ecg_XP1
 XXS1 XS2/G XS1/D VGND VGND tt_um_jlvsdlv_ecg_NL2L8
 XXMRB23 XMREP/G XSWB2/D XMRB23/S XMRB23/S tt_um_jlvsdlv_ecg_MRB
@@ -568,5 +569,6 @@ XXLD1 XLD2/S XLD2/S XA2/G XA2/G tt_um_jlvsdlv_ecg_MLAD
 X0 VGND ui_in[4] sky130_fd_pr__diode_pw2nd_05v5 perim=2.4e+06 area=3.6e+11
 X1 VGND uio_in[4] sky130_fd_pr__diode_pw2nd_05v5 perim=2.4e+06 area=3.6e+11
 X2 VGND ui_in[5] sky130_fd_pr__diode_pw2nd_05v5 perim=2.4e+06 area=3.6e+11
+X3 VGND uio_in[1] sky130_fd_pr__diode_pw2nd_05v5 perim=2.4e+06 area=3.6e+11
 .ends
 
