@@ -231,7 +231,7 @@ for sd, y in ((1, 16.0), (2, 52.0)):                                     # Ct MI
     xs = 114.0
     for nm, c, k in ((f"XCT{sd}_9a", "C245", 9), (f"XCT{sd}_9b", "C245", 9), (f"XCT{sd}_8", "C245", 8), (f"XCT{sd}_7", "C173", 7), (f"XCT{sd}_6", "C122", 6)):
         wire_cap(c, nm, xs, y, f"vi{sd}", f"ct{sd}_{k}"); xs += W_(c) + 1.6
-wire_cap("C205", "XCPF1", 236.0, 16.0, "vo1", "vi1"); wire_cap("C205", "XCPF2", 236.0, 52.0, "vo2", "vi2")
+wire_cap("C2025", "XCPF1", 236.0, 16.0, "vo1", "vi1"); wire_cap("C2025", "XCPF2", 236.0, 52.0, "vo2", "vi2")
 for r, y in enumerate((95.6, 130.8, 166.0)):                              # Cg: 8 x C30 over DNW / well-bias band
     for k in range(3):
         idx = 3 * r + k

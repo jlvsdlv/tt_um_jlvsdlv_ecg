@@ -35,7 +35,7 @@ for side, (d, g) in {3: ("vo2", "g3"), 4: ("vo1", "g4")}.items():
 m("MR3", "g3", "vo2", "vo2", "vo2", P, 0.42, 4); m("MR4", "g4", "vo1", "vo1", "vo1", P, 0.42, 4)
 cap("CF3", "vo2", "g3", 23.6, 23.6); cap("CF4", "vo1", "g4", 23.6, 23.6)            # 1.12 pF
 cap("CGA", "g3", "g4", 30, 30, 4); cap("CGB", "g4", "g3", 30, 30, 4)               # 2 x 7.5 pF (common-centroid halves)
-cap("CPF1", "vo1", "vi1", 20.5, 20.5); cap("CPF2", "vo2", "vi2", 20.5, 20.5)        # 0.84 pF (post-layout: covers extracted gate-drain fringe)
+cap("CPF1", "vo1", "vi1", 20.25, 20.25); cap("CPF2", "vo2", "vi2", 20.25, 20.25)        # 0.82 pF (post-layout: covers extracted gate-drain fringe)
 # tail mirror
 m("MB1", "nb", "nb", "vdd", "vdd", PL, 2, 2, 10)
 m("MB2", "tail", "nb", "vdd", "vdd", PL, 2, 2, 200)

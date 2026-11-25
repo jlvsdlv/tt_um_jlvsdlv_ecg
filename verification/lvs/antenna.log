@@ -27,7 +27,7 @@ Reading "tt_um_jlvsdlv_ecg_C30".
 Reading "tt_um_jlvsdlv_ecg_VAR9G".
 Reading "tt_um_jlvsdlv_ecg_C173".
 Reading "tt_um_jlvsdlv_ecg_C122".
-Reading "tt_um_jlvsdlv_ecg_C205".
+Reading "tt_um_jlvsdlv_ecg_C2025".
 Reading "tt_um_jlvsdlv_ecg_VB0G".
 Reading "tt_um_jlvsdlv_ecg_VB1G".
 Reading "tt_um_jlvsdlv_ecg_VB3G".
@@ -67,8 +67,8 @@ Reading "tt_um_jlvsdlv_ecg_MIRB".
 Reading "tt_um_jlvsdlv_ecg".
 Extracting aflat into aflat.ext:
 Processing aflat
-aflat: 4 warnings
-Total of 4 warnings.
+aflat: 5 warnings
+Total of 5 warnings.
 Reading extract file.
 Building flattened netlist.
 Running antenna checks.

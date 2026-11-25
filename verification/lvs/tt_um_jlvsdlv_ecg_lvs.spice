@@ -288,8 +288,8 @@ X4 D4 G S3 B sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.29 as=0.29 ps=2.29 w=2 l=8
 X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
 .ends
 
-.subckt tt_um_jlvsdlv_ecg_C205 C1 C2
-X0 C1 C2 sky130_fd_pr__cap_mim_m3_1 l=20.5 w=20.5
+.subckt tt_um_jlvsdlv_ecg_C2025 C1 C2
+X0 C1 C2 sky130_fd_pr__cap_mim_m3_1 l=20.25 w=20.25
 .ends
 
 .subckt tt_um_jlvsdlv_ecg_NL2L4 G D B S
@@ -493,10 +493,10 @@ XXCBM2_0 XSWB2/D ua[1] tt_um_jlvsdlv_ecg_C30
 XXI1aN XI1aP/G XI2aP/G VGND VGND tt_um_jlvsdlv_ecg_N1L05
 XXCBM2_1 XSWB2/D ua[1] tt_um_jlvsdlv_ecg_C30
 XXI1bP XI1bP/G XI2bP/G VDPWR VDPWR tt_um_jlvsdlv_ecg_P2L05
-XXCPF1 ua[2] ua[0] tt_um_jlvsdlv_ecg_C205
+XXCPF1 ua[2] ua[0] tt_um_jlvsdlv_ecg_C2025
 XXCBM2_2 XSWB2/D ua[1] tt_um_jlvsdlv_ecg_C30
 XXI1aP XI1aP/G XI2aP/G VDPWR VDPWR tt_um_jlvsdlv_ecg_P2L05
-XXCPF2 ua[3] ua[1] tt_um_jlvsdlv_ecg_C205
+XXCPF2 ua[3] ua[1] tt_um_jlvsdlv_ecg_C2025
 XXM4B_0 XMR4/D ua[2] XMCLb/B VGND tt_um_jlvsdlv_ecg_M34S
 XXCBM2_3 XSWB2/D ua[1] tt_um_jlvsdlv_ecg_C30
 XXA1 XA1/G XPB/G VGND XS1/D tt_um_jlvsdlv_ecg_NL2L4
@@ -567,5 +567,6 @@ XXCT1_5 XSCT1_5/D XSCT1_5/D ua[0] ua[0] VGND tt_um_jlvsdlv_ecg_VB5G
 XXLD1 XLD2/S XLD2/S XA2/G XA2/G tt_um_jlvsdlv_ecg_MLAD
 X0 VGND ui_in[4] sky130_fd_pr__diode_pw2nd_05v5 perim=2.4e+06 area=3.6e+11
 X1 VGND uio_in[4] sky130_fd_pr__diode_pw2nd_05v5 perim=2.4e+06 area=3.6e+11
+X2 VGND ui_in[5] sky130_fd_pr__diode_pw2nd_05v5 perim=2.4e+06 area=3.6e+11
 .ends
 

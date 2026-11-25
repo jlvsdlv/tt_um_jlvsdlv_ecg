@@ -38,7 +38,7 @@ Flattening unmatched subcell tt_um_jlvsdlv_ecg_PL2L2 in circuit tt_um_jlvsdlv_ec
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_MB1 in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_NL2L8x5 in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_P2L05 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
-Flattening unmatched subcell tt_um_jlvsdlv_ecg_C205 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
+Flattening unmatched subcell tt_um_jlvsdlv_ecg_C2025 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_NL2L4 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_MREP in circuit tt_um_jlvsdlv_ecg (0)(1 instance)
 Flattening unmatched subcell tt_um_jlvsdlv_ecg_C236 in circuit tt_um_jlvsdlv_ecg (0)(2 instances)
@@ -68,8 +68,8 @@ sky130_fd_pr__pfet_01v8_lvt (21)           |sky130_fd_pr__pfet_01v8_lvt (21)
 sky130_fd_pr__nfet_01v8_lvt (14)           |sky130_fd_pr__nfet_01v8_lvt (14)           
 sky130_fd_pr__cap_var_lvt (14)             |sky130_fd_pr__cap_var_lvt (14)             
 sky130_fd_pr__res_xhigh_po_0p35 (3)        |sky130_fd_pr__res_xhigh_po_0p35 (3)        
-sky130_fd_pr__diode_pw2nd_05v5 (2)         |sky130_fd_pr__diode_pw2nd_05v5 (2)         
-Number of devices: 131                     |Number of devices: 131                     
+sky130_fd_pr__diode_pw2nd_05v5 (3)         |sky130_fd_pr__diode_pw2nd_05v5 (3)         
+Number of devices: 132                     |Number of devices: 132                     
 Number of nets: 84                         |Number of nets: 84                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
@@ -84,6 +84,7 @@ ua[3]                                      |ua[3]
 ua[2]                                      |ua[2]                                      
 VGND                                       |VGND                                       
 ui_in[4]                                   |ui_in[4]                                   
+ui_in[5]                                   |ui_in[5]                                   
 ua[4]                                      |ua[4]                                      
 clk                                        |clk                                        
 uio_in[2]                                  |uio_in[2]                                  
@@ -98,7 +99,6 @@ ui_in[0]                                   |ui_in[0]
 ui_in[1]                                   |ui_in[1]                                   
 ui_in[2]                                   |ui_in[2]                                   
 ui_in[3]                                   |ui_in[3]                                   
-ui_in[5]                                   |ui_in[5]                                   
 uio_in[3]                                  |uio_in[3]                                  
 uio_in[4]                                  |uio_in[4]                                  
 ---------------------------------------------------------------------------------------

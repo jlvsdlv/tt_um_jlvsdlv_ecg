@@ -27,6 +27,7 @@ def mk5p(cbc=None, cpf=0.58e-12, ct=None):
 def origp(cbc, cpf):
     f = _orig(cbc, cpf); return lambda p: (lambda t: t + extra(t))(f(p))
 C._orig = origp
+if os.environ.get('CTREAL'): S.CT_W = [11.3e-15, 22.6e-15, 45.2e-15, 90.5e-15, 181.0e-15, 362.0e-15, 307.0e-15, 611.7e-15, 1219.1e-15, 2438.2e-15]
 _noise = S.noise
 def noise_np(p, *a, **k):
     C._orig = _orig

@@ -121,7 +121,13 @@ def astar(net, starts, goal):
             ng = g + c * ncost(nb[0], nb[1], net)
             if ng < best.get(nb, 1e18): best[nb] = ng; prev[nb] = cur; heapq.heappush(openq, (ng + 1.1 * h(nb), ng, nb))
     return None
+import os, random
+RSEED = int(os.environ.get("RSEED", "0"))
 ORDER = sorted(TERMS, key=lambda n: (n in ("VGND", "VDPWR", "vdd"), len(TERMS[n])))
+if RSEED:
+    random.seed(RSEED); head = [n for n in ORDER if n not in ("VGND", "VDPWR", "vdd")]; random.shuffle(head)
+    head.sort(key=lambda n: n.startswith("ct"), reverse=True)        # route the congested Ct nets first
+    ORDER = head + [n for n in ORDER if n in ("VGND", "VDPWR", "vdd")]
 ROUTES = {}
 def route_net(net):
     pts = [tuple(p) for p in TERMS[net]]

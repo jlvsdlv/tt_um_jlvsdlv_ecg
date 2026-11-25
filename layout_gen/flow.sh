@@ -1,5 +1,5 @@
 set -e
-python3 route6.py 40 > route6.log 2>&1
+RSEED=${RSEED:-0} python3 route6.py 60 > route6.log 2>&1
 timeout 1500 /opt/magic/bin/magic -dnull -noconsole drc_route2.tcl 2>&1 | grep -E "LOC|Total" | cut -c1-600 >> route6.log
 cd ext && rm -f *.ext *.mag && cp ../*.mag . && cp ../tt_um_ecg_v5_ref.spice .
 timeout 900 /opt/magic/bin/magic -dnull -noconsole ../ext5.tcl > ext.log 2>&1

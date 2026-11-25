@@ -45,12 +45,14 @@ def noise(p, cpf=CPF):
     lv.core = lin; nb.core = lin; lvnoise.core = lin; nb.rps = lambda q: rf
     s = nb.spectra(p); F = nb.FR; I = lambda x: float(np.trapezoid(x, F))
     return dict(rb=rb, rf=rf, static=np.sqrt(I(s["tot"]))*1e6, sw=np.sqrt(I(s["tot"] - s["f34"] + A.R7*s["f34"]))*1e6, gain=float(20*np.log10(np.median(s["g"]))))
+CT_W = None   # actual per-bit Ct weights (F); None -> ideal binary
 def trim(r, lsb=10e-15, bits=10):
-    cts = np.arange(2 ** bits) * lsb
+    cts = np.arange(2 ** bits) * lsb if CT_W is None else np.array([sum(w for k, w in enumerate(CT_W) if (c >> k) & 1) for c in range(2 ** len(CT_W))])
     f, g, b = r["f"], r["g"], r["b"]; m = (f >= 0.5) & (f <= 150)
     best = (0, -1, None)
     for c in cts:
         z = 1 / np.abs(g + 1j * (b + 2 * np.pi * f * c / 2))
         if z[m].min() > best[1]: best = (c, z[m].min(), z)
     c, zmin, z = best
-    return dict(ct=c, zmin=zmin, z=[float(np.interp(x, f, z)) for x in (0.5, 1, 10, 50, 100, 150)])
+    code = int(np.argmin(abs(cts - c)))
+    return dict(code=code, ct=c, zmin=zmin, z=[float(np.interp(x, f, z)) for x in (0.5, 1, 10, 50, 100, 150)])
