@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "Sub-uVrms 1-uW GOhm-input ECG amplifier"      # Project title
-  author:       "Jose Luis Valtierra, Miguel Barrales-Romero, Alejandro Díaz-Sánchez"      # Your name
+  author:       "Jose Luis Valtierra"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "ECG front end: complementary bulk switching + AC-coupled DTMOS, 0.9 uVrms, >2 GOhm, ~1 uW at 1 V"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
