@@ -2,7 +2,7 @@
 project:
   title:        "Sub-uVrms 1-uW GOhm-input ECG amplifier"      # Project title
   author:       "Jose Luis Valtierra"      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  discord:      "jlvsdlv"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "ECG front end: complementary bulk switching + AC-coupled DTMOS, 0.9 uVrms, >2 GOhm, ~1 uW at 1 V"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     2000       # Clock frequency in Hz (or 0 if not applicable)
