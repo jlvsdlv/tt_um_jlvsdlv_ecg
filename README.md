@@ -1,6 +1,6 @@
 # Sub-µVrms, 1-µW, GΩ-input ECG amplifier (tt_um_jlvsdlv_ecg)
 
-José Luis Valtierra Sánchez de la Vega, Miguel Barrales-Romero and Alejandro Díaz Sánchez. TinyTapeout TTSKY26e, 2×2 analog tile.
+José Luis Valtierra Sánchez de la Vega. TinyTapeout TTSKY26e, 2×2 analog tile.
 
 Repo layout: `gds/`, `lef/`, `mag/` (final layout), `layout_gen/` (generator, router, DRC/LVS/PEX scripts), `verification/lvs/` (reference and extracted netlists, netgen report), `verification/sim/` (ngspice testbenches and results).
 
